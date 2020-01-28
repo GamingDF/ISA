@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveToTouch : MonoBehaviour {
-	public Rigidbody2D rb = null;
-	Vector2 touchPosition;
-	public float speed = 1;
+	[SerializeField] Rigidbody2D _rb = null;
+	[SerializeField] float _speed = 1;
+	Vector2 _touchPosition;
 
 	void Update() {
 		if (Input.touchCount > 0) {
 			Touch touch = Input.GetTouch(0);
 			if (touch.phase == TouchPhase.Began) {
-				touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+				_touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
 			}
 		}
 	}
 
 	void FixedUpdate() {
-		float step = speed * Time.fixedDeltaTime;
-		rb.MovePosition(Vector2.MoveTowards(transform.position, touchPosition, speed));
+		float step = _speed * Time.fixedDeltaTime;
+		_rb.MovePosition(Vector2.MoveTowards(transform.position, _touchPosition, _speed));
 	}
 }

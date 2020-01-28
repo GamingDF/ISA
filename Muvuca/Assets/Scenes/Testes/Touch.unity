@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -132,6 +133,7 @@ GameObject:
   - component: {fileID: 54811771}
   - component: {fileID: 54811773}
   - component: {fileID: 54811774}
+  - component: {fileID: 54811775}
   m_Layer: 0
   m_Name: ball
   m_TagString: Untagged
@@ -153,6 +155,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -214,8 +217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca5d6feafb40934eba1dff7ffc4a38b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 54811774}
-  speed: 0.2
+  _rb: {fileID: 54811774}
+  _speed: 1
 --- !u!50 &54811774
 Rigidbody2D:
   serializedVersion: 4
@@ -237,6 +240,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &54811775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54811770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 916adc7826d3c804886c4616a5eb4f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _analogRadius: 1
+  _deadZoneRadius: 0.3
+  _timeToActive: 0.5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
