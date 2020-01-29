@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class PuzzleArea : MonoBehaviour
 {
-    /*[Tooltip("Altura e largura da grid")]
+    [Tooltip("Altura e largura da grid")]
     [SerializeField]
     private int gridSize;
     private List<List<PuzzleCell>> cells;
@@ -20,11 +20,15 @@ public class PuzzleArea : MonoBehaviour
                 cells[i].Add(new PuzzleCell());
             }
         }
-    }*/
+    }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void CreatePlant(Vector2Int c, PuzzleCell.PlantType t) {
+        cells[c.x][c.y].plants.Add(t);
     }
 }
