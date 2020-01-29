@@ -7,13 +7,10 @@ public class AnalogInput : MonoBehaviour {
 	[SerializeField] float _deadZoneRadius = 0.5f;
 	[SerializeField] float _timeToActive = 1;
 	Vector3 _analogPosition = Vector3.zero;
+	Vector3 _analogScreen = Vector3.zero;
 	float _timer = 0;
 	bool _active = false;
-	float _horizontal;
-	float _vertical;
-	public Vector2 _axis;
-	public float Horizontal => _horizontal;
-	public float Vertical => _vertical;
+	[SerializeField] Vector2 _axis;
 	public Vector2 Axis => _axis;
 
 	static AnalogInput _instance;
@@ -46,12 +43,10 @@ public class AnalogInput : MonoBehaviour {
 			if (_active) {
 				if (touch.phase == TouchPhase.Ended) {
 					_active = false;
+					_analogScreen = Vector3.zero;
 					_analogPosition = Vector3.zero;
-					_timer = 0;
-
-					_horizontal = 0;
-					_vertical = 0;
 					_axis = Vector2.zero;
+					_timer = 0;
 				}
 			}
 			else {
@@ -59,8 +54,7 @@ public class AnalogInput : MonoBehaviour {
 					_timer += Time.deltaTime;
 					if (_timer >= _timeToActive) {
 						_active = true;
-						_analogPosition = Camera.main.ScreenToWorldPoint(touch.position);
-						_analogPosition.z = 0;
+						_analogScreen = touch.position;
 					}
 				}
 				else {
@@ -71,6 +65,9 @@ public class AnalogInput : MonoBehaviour {
 	}
 
 	void UpdateInput() {
+		_analogPosition = Camera.main.ScreenToWorldPoint(_analogScreen);
+		_analogPosition.z = 0;
+
 		Touch touch = Input.GetTouch(0);
 		Vector3 position = Camera.main.ScreenToWorldPoint(touch.position);
 		Vector2 diff = position - _analogPosition;
@@ -80,8 +77,6 @@ public class AnalogInput : MonoBehaviour {
 		magnitude = magnitude / (_analogRadius - _deadZoneRadius);
 		diff = magnitude * diff.normalized;
 
-		_horizontal = diff.x;
-		_vertical = diff.y;
 		_axis = new Vector2(diff.x, diff.y);
 	}
 
