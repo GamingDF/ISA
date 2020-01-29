@@ -11,8 +11,10 @@ public class AnalogInput : MonoBehaviour {
 	bool _active = false;
 	float _horizontal;
 	float _vertical;
+	public Vector2 _axis;
 	public float Horizontal => _horizontal;
 	public float Vertical => _vertical;
+	public Vector2 Axis => _axis;
 
 	static AnalogInput _instance;
 	public static AnalogInput Instance {
@@ -67,7 +69,16 @@ public class AnalogInput : MonoBehaviour {
 	void UpdateInput() {
 		Touch touch = Input.GetTouch(0);
 		Vector3 position = Camera.main.ScreenToWorldPoint(touch.position);
-		Vector3 diff = position - _analogPosition;
+		Vector2 diff = position - _analogPosition;
+		float magnitude = diff.magnitude;
+
+		magnitude = Mathf.Clamp(magnitude, _deadZoneRadius, _analogRadius) - _deadZoneRadius;
+		magnitude = magnitude / (_analogRadius - _deadZoneRadius);
+		diff = magnitude * diff.normalized;
+
+		_horizontal = diff.x;
+		_vertical = diff.y;
+		_axis = new Vector2(diff.x, diff.y);
 	}
 
 	void OnDrawGizmosSelected() {
