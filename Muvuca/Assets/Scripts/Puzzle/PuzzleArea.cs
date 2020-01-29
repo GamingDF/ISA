@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PuzzleArea : MonoBehaviour
 {
-    [Tooltip("Altura e largura da grid")]
+    /*[Tooltip("Altura e largura da grid")]
     [SerializeField]
     private int gridSize;
     private List<List<PuzzleCell>> cells;
+
+    private Tilemap tilemap;
 
     private void Awake() {
         cells = new List<List<PuzzleCell>>();
@@ -17,7 +20,7 @@ public class PuzzleArea : MonoBehaviour
                 cells[i].Add(new PuzzleCell());
             }
         }
-    }
+    }*/
 
     // Update is called once per frame
     void Update()

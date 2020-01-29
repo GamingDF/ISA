@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PuzzleCell
+public class PuzzleCell : MonoBehaviour
 {
     public enum PlantType {
         P,
@@ -13,7 +13,7 @@ public class PuzzleCell
     public bool influenced;
     public List<PlantType> plants;
 
-    public PuzzleCell() {
+    private void Start() {
         plants = new List<PlantType>();
     }
 }
