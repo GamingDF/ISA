@@ -48,6 +48,10 @@ public class AnalogInput : MonoBehaviour {
 					_active = false;
 					_analogPosition = Vector3.zero;
 					_timer = 0;
+
+					_horizontal = 0;
+					_vertical = 0;
+					_axis = Vector2.zero;
 				}
 			}
 			else {
