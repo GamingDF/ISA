@@ -16,7 +16,14 @@ public class DialogueController : MonoBehaviour
     [SerializeField]
     private bool playSoundOnText;
 
+    public Dialogue[] toShow;
+
     public bool onDialogue;
+    public bool goToNextDialogue;
+    public bool startDialogue;
+
+    public int branch = 0;
+    public int dNumber = 0;
 
     private void Awake() {
         if (Instance == null) {
@@ -33,9 +40,27 @@ public class DialogueController : MonoBehaviour
     }
 
     private void Update() {
-        //Teste de diálogo
-        if (Input.GetKeyDown(KeyCode.D)) {
-            CallDialogue("[fteste]aAAAaaaaAAAAAaaaaAaAAAaA");
+        if (startDialogue) {
+            startDialogue = false;
+            Debug.Log(branch + " " + dNumber);
+            NextDialogue(toShow[branch].text[dNumber]);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return)) {
+            if (goToNextDialogue) {
+                goToNextDialogue = false;
+                dNumber++;
+                if (dNumber < toShow[branch].text.Length) {
+                    NextDialogue(toShow[branch].text[dNumber]);
+                }
+                else {
+                    onDialogue = false;
+                    dialogueBox.SetActive(false);
+                }
+            }
+            else {
+                GetComponent<TextParser>().jumpToEnd = true;
+            }
         }
     }
 
@@ -50,9 +75,16 @@ public class DialogueController : MonoBehaviour
         }
     }
 
-    public void CallDialogue(string d) {
+    public void CallDialogue(Dialogue[] d) {
         onDialogue = true;
+        startDialogue = true;
+
+        toShow = d;
+
         dialogueBox.SetActive(true);
+    }
+
+    private void NextDialogue(string d) {
         dialogueBox.transform.Find("Text").GetComponent<Text>().text = "";
 
         StartCoroutine(GetComponent<TextParser>().Parse(d));

@@ -11,6 +11,8 @@ public class TextParser : MonoBehaviour
     private string portraitName;
     private float textSpeed = 0.25f;
 
+    public bool jumpToEnd;
+
     public IEnumerator Parse(string original) {
         bool checkForCommand = false;
         bool checkForPortrait = false;
@@ -50,7 +52,15 @@ public class TextParser : MonoBehaviour
             //Processamento de texto
             GetComponent<DialogueController>().InsertChar(c);
 
-            yield return new WaitForSeconds(textSpeed);
+            if (!jumpToEnd) {
+                yield return new WaitForSeconds(textSpeed);
+            }
+            else {
+                yield return null;
+            }
         }
+
+        jumpToEnd = false;
+        GetComponent<DialogueController>().goToNextDialogue = true;
     }
 }
