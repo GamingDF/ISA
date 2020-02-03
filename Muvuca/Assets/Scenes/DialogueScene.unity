@@ -690,10 +690,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - text:
-    - '[fteste]Eae rapaz. Que que tu manda?'
-    - '[fteste0]Tudo sussa amigo.'
-  - text:
-    - '[fteste]AAAAAAAA'
+    - '[fTesteYasmin]Tudo bem?'
+    - '[fteste]Tudo sim.'
+  - text: []
 --- !u!4 &1651140326
 Transform:
   m_ObjectHideFlags: 0
