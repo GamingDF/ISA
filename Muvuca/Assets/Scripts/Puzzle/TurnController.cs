@@ -25,9 +25,12 @@ public class TurnController : MonoBehaviour
     void Update()
     {
         if (interturns) {
+            var cellsAux = area.cells;
+            int testCount = 0;
             for (int i = 0; i < area.cells.Count; i++) {
                 for (int j = 0; j < area.cells[0].Count; j++) {
-                    foreach (PuzzleCell.PlantType v in area.cells[i][j].plants) {
+                    foreach (PuzzleCell.PlantType v in cellsAux[i][j].plants) {
+                        Debug.Log(testCount++);
                         area.ApplyGrowth(new Vector2Int(i, j), v);
                     }
                 }

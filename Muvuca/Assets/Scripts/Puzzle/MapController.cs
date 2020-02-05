@@ -17,17 +17,19 @@ public class MapController : MonoBehaviour
     private GameObject cPrefab;
 
     private PuzzleArea area;
+    private Grid g;
 
     // Start is called before the first frame update
     void Start()
     {
         area = GetComponent<PuzzleArea>();
+        g = GetComponent<Grid>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (drawMap) {
+        if (drawMap && !GetComponent<TurnController>().interturns) {
             CleanMap();
             CreateMap();
             drawMap = false;
@@ -50,18 +52,35 @@ public class MapController : MonoBehaviour
                     Instantiate(avPrefab, mapHolder.position + new Vector3(i, j, 0), Quaternion.identity, mapHolder);
                 }*/
                 if (area.cells[i][j].influenced == PuzzleCell.InfluenceType.Double) {
-                    Instantiate(cPrefab, mapHolder.position + new Vector3(i, j, 0), Quaternion.identity, mapHolder);
+                    CallInstantiate(PuzzleCell.PlantType.C, i, j);
                 }
                 else if (area.cells[i][j].influenced == PuzzleCell.InfluenceType.SSingle) {
-                    Instantiate(sPrefab, mapHolder.position + new Vector3(i, j, 0), Quaternion.identity, mapHolder);
+                    CallInstantiate(PuzzleCell.PlantType.S, i, j);
                 }
                 else if (area.cells[i][j].influenced == PuzzleCell.InfluenceType.PSingle) {
-                    Instantiate(pPrefab, mapHolder.position + new Vector3(i, j, 0), Quaternion.identity, mapHolder);
+                    CallInstantiate(PuzzleCell.PlantType.P, i, j);
                 }
                 else if (area.cells[i][j].influenced == PuzzleCell.InfluenceType.AVOnly) {
-                    Instantiate(avPrefab, mapHolder.position + new Vector3(i, j, 0), Quaternion.identity, mapHolder);
+                    CallInstantiate(PuzzleCell.PlantType.AV, i, j);
                 }
             }
+        }
+    }
+    public void CallInstantiate(PuzzleCell.PlantType p, int i, int j) {
+        Vector3 pos = g.GetCellCenterWorld(g.WorldToCell(mapHolder.position + new Vector3(i, -j, 0)));
+        switch (p) {
+            case PuzzleCell.PlantType.AV:
+                Instantiate(avPrefab, pos, Quaternion.identity, mapHolder);
+                break;
+            case PuzzleCell.PlantType.P:
+                Instantiate(pPrefab, pos, Quaternion.identity, mapHolder);
+                break;
+            case PuzzleCell.PlantType.S:
+                Instantiate(sPrefab, pos, Quaternion.identity, mapHolder);
+                break;
+            case PuzzleCell.PlantType.C:
+                Instantiate(cPrefab, pos, Quaternion.identity, mapHolder);
+                break;
         }
     }
 
