@@ -5,6 +5,7 @@ using UnityEngine;
 public class PuzzleCell
 {
     public enum PlantType {
+        None,
         AV,
         P,
         S,
@@ -20,9 +21,14 @@ public class PuzzleCell
     }
 
     public InfluenceType influenced;
-    public List<PlantType> plants;
+    public PlantType plants;
 
     public PuzzleCell() {
-        plants = new List<PlantType>();
+        plants = PlantType.None;
+    }
+
+    public PuzzleCell(PlantType p, InfluenceType i) {
+        influenced = i;
+        plants = p;
     }
 }

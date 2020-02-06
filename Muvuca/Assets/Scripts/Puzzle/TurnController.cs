@@ -14,6 +14,17 @@ public class TurnController : MonoBehaviour
     private PuzzleArea area;
     private MapController map;
 
+    public static TurnController Instance { get; private set; }
+
+    private void Awake() {
+        if(Instance != null) {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,13 +36,24 @@ public class TurnController : MonoBehaviour
     void Update()
     {
         if (interturns) {
-            var cellsAux = area.cells;
+            List<List<PuzzleCell>> cellsAux = new List<List<PuzzleCell>>(); ;
+
+            int count = 0;
+            foreach (List<PuzzleCell> l in area.cells) {
+                cellsAux.Add(new List<PuzzleCell>());
+                foreach (PuzzleCell p in l) {
+                    cellsAux[count].Add(new PuzzleCell(p.plants, p.influenced));
+                }
+                count++;
+            }
+
             int testCount = 0;
             for (int i = 0; i < area.cells.Count; i++) {
                 for (int j = 0; j < area.cells[0].Count; j++) {
-                    foreach (PuzzleCell.PlantType v in cellsAux[i][j].plants) {
+                    if (cellsAux[i][j].plants != PuzzleCell.PlantType.None) {
                         Debug.Log(testCount++);
-                        area.ApplyGrowth(new Vector2Int(i, j), v);
+                        if(cellsAux[i][j].plants == PuzzleCell.PlantType.AV)
+                            area.ApplyGrowth(new Vector2Int(i, j), cellsAux[i][j].plants);
                     }
                 }
             }
@@ -41,6 +63,7 @@ public class TurnController : MonoBehaviour
     }
 
     public void PassTurn() {
+        Debug.Log("Passing turn");
         interturns = true;
         map.drawMap = true;
     }
