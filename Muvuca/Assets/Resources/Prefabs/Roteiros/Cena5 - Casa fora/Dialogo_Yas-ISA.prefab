@@ -54,19 +54,25 @@ MonoBehaviour:
       av\xF3. Ela me avisou que vinha."
     - "[fTesteYasmin] [nYasmin] Sou a [cAzul] Yasmin [c/], um prazer te conhecer.
       \r\n"
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - "[fteste0] [nLojeiro] O prazer \xE9 todo meu! \xC9 nova na cidade? \r\n"
+    - "[fTesteYasmin] [nYasmin] De certa forma. Vinha muito visitar quando mais nova.
+      Mas vim agora para cuidar da vov\xF3.\r\n"
+    - '[fteste0] [nLojeiro] Entendi. Uma atitude muito boa minha jovem.'
+    - '[fteste0] [nLojeiro] Bom, vamos ao que interessa.'
+    - "[fteste0] [nLojeiro] Sua av\xF3 te explicou das obriga\xE7\xF5es legais de
+      restaura\xE7\xE3o da sua \xE1rea residencial? "
+    - "[fTesteYasmin] [nYasmin] N\xE3o senhor. "
+    - "[fteste0] [nLojeiro] Certo. Ent\xE3o \xE9 o seguinte."
+    - "[fteste0] [nLojeiro]  Existe uma \xE1rea perto da sua casa com uma nascente
+      que necessita de cuidados nesse ambiente para que ela n\xE3o morra."
+    - "[fteste0] [nLojeiro] Para isso teremos que passar pelo processo de restaura\xE7\xE3o
+      da mata da regi\xE3o."
+    - '[fteste0] [nLojeiro] Eu estou aqui para lhe mostrar como isso funciona.'
+    - '[fTesteYasmin] [nYasmin]  Entendi. '
+    - "[fTesteYasmin] [nYasmin] *Nossa, nao imaginei que teria esse tipo de trabalho
+      ao vir cuidar da vov\xF3.*"
+    - "[fTesteYasmin] [nYasmin] Vamos l\xE1 ent\xE3o! Por onde come\xE7amos? Estou
+      um tanto curiosa para saber o que podemos fazer para restaurar essa regi\xE3o.\r\n"
+    - "[fteste0] [nLojeiro] \xD3timo! Venha comigo. Vou te mostrar os processos que
+      usamos na restaura\xE7\xE3o."
   - text: []

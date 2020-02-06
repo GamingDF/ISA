@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4394152359642450554}
   - component: {fileID: 4394152359642450553}
   m_Layer: 0
-  m_Name: Dialogo_YasAvo
+  m_Name: "Di\xE1logo_Yas-ISA_2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - text:
-    - "[fTesteYasmin] [nYasmin]V\xF3\xF3\xF3! Chegueeeeei!"
-    - "[fteste] [nAv\xF3] Minha netinha! Como voc\xEA cresceu! Venha c\xE1 para eu
-      lhe dar um abra\xE7o bem apertado e n\xE3o esque\xE7a da minha  b\xEAn\xE7a."
+    - '[fTesteYasmin]Tudo bem?'
+    - '[fteste]Tudo sim.'
   - text: []

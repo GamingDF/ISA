@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4394152359642450554}
   - component: {fileID: 4394152359642450553}
   m_Layer: 0
-  m_Name: Dialogo_YasAvo2
+  m_Name: Dialogo_YasAvo_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
