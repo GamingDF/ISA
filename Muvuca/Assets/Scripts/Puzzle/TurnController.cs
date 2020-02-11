@@ -59,8 +59,21 @@ public class TurnController : MonoBehaviour
                 for (int j = 0; j < area.cells[0].Count; j++) {
                     if (cellsAux[i][j].plants != PuzzleCell.PlantType.None) {
                         Debug.Log(testCount++);
-                        if(cellsAux[i][j].plants == PuzzleCell.PlantType.AV)
+                        if (cellsAux[i][j].plants == PuzzleCell.PlantType.AV) {
                             area.ApplyGrowth(new Vector2Int(i, j), cellsAux[i][j].plants);
+                        }
+                        else if (cellsAux[i][j].plants == PuzzleCell.PlantType.P) {
+                            area.cells[i][j].turnsToGrow--;
+                            if(area.cells[i][j].turnsToGrow <= 0) {
+                                area.ApplyGrowth(new Vector2Int(i, j), cellsAux[i][j].plants);
+                            }
+                        }
+                        else if (cellsAux[i][j].plants == PuzzleCell.PlantType.S) {
+                            area.cells[i][j].turnsToGrow--;
+                            if (area.cells[i][j].turnsToGrow <= 0) {
+                                area.ApplyGrowth(new Vector2Int(i, j), cellsAux[i][j].plants);
+                            }
+                        }
                     }
                 }
             }

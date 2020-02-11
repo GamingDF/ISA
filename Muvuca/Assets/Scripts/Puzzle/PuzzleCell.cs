@@ -22,6 +22,7 @@ public class PuzzleCell
 
     public InfluenceType influenced;
     public PlantType plants;
+    public int turnsToGrow;
 
     public PuzzleCell() {
         plants = PlantType.None;

@@ -29,6 +29,7 @@ public class PuzzleArea : MonoBehaviour
     private void Start() {
         //Mapa teste
         CreatePlant(new Vector2Int(1, 1), PuzzleCell.PlantType.AV);
+        CreatePlant(new Vector2Int(3, 1), PuzzleCell.PlantType.P);
         CreatePlant(new Vector2Int(3, 4), PuzzleCell.PlantType.P);
         CreatePlant(new Vector2Int(2, 6), PuzzleCell.PlantType.S);
     }
@@ -76,9 +77,11 @@ public class PuzzleArea : MonoBehaviour
                 break;
             case PuzzleCell.PlantType.P:
                 cells[c.x][c.y].influenced = PuzzleCell.InfluenceType.PSingle;
+                cells[c.x][c.y].turnsToGrow = 3;
                 break;
             case PuzzleCell.PlantType.S:
                 cells[c.x][c.y].influenced = PuzzleCell.InfluenceType.SSingle;
+                cells[c.x][c.y].turnsToGrow = 5;
                 break;
             case PuzzleCell.PlantType.C:
                 cells[c.x][c.y].influenced = PuzzleCell.InfluenceType.Double;
@@ -95,7 +98,12 @@ public class PuzzleArea : MonoBehaviour
         //Adubo verde
         if(p == PuzzleCell.PlantType.AV) {
             if (CheckNotBoundries(new Vector2Int(pos.x + 1, pos.y))) {
-                if (cells[pos.x + 1][pos.y].influenced == PuzzleCell.InfluenceType.None) {
+                if(cells[pos.x + 1][pos.y].plants != PuzzleCell.PlantType.None &&
+                    cells[pos.x + 1][pos.y].plants != PuzzleCell.PlantType.C) {
+                    cells[pos.x + 1][pos.y].plants = PuzzleCell.PlantType.AV;
+                    cells[pos.x + 1][pos.y].influenced = PuzzleCell.InfluenceType.AVOnly;
+                }
+                else if (cells[pos.x + 1][pos.y].influenced == PuzzleCell.InfluenceType.None) {
                     cells[pos.x + 1][pos.y].influenced = PuzzleCell.InfluenceType.AVOnly;
                     if (!(cells[pos.x + 1][pos.y].plants == PuzzleCell.PlantType.AV)) {
                         cells[pos.x + 1][pos.y].plants = PuzzleCell.PlantType.AV;
