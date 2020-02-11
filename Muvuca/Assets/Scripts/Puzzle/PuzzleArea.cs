@@ -121,10 +121,14 @@ public class PuzzleArea : MonoBehaviour
         if (p == PuzzleCell.PlantType.S) {
             for (int i = 0; i < gridSize; i++) {
                 for (int j = 0; j <= gridSize; j++) {
+                    Debug.Log("Iteracao");
                     if (i == pos.x || j == pos.y) {
-                        if (CheckNotBoundries(new Vector2Int(pos.x + i, pos.y + j))) {
-                            if (cells[pos.x + i][pos.y + j].influenced == PuzzleCell.InfluenceType.None) {
-                                cells[pos.x + i][pos.y + j].influenced = PuzzleCell.InfluenceType.SSingle;
+                        Debug.Log("i: " + i + ",j: " + j);
+                        if (CheckNotBoundries(new Vector2Int(i, j))) {
+                            Debug.Log("In boundries");
+                            if (cells[i][j].influenced == PuzzleCell.InfluenceType.None) {
+                                Debug.Log("Virou S");
+                                cells[i][j].influenced = PuzzleCell.InfluenceType.SSingle;
                             }
                         }
                     }

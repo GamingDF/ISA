@@ -32,8 +32,10 @@ public class ToolCursor : MonoBehaviour
         transform.position = g.GetCellCenterWorld(cell);
 
         if (Input.GetMouseButtonDown(0)) {
-            if (a.CheckNotBoundries((Vector2Int)cell)) {
+            //Debug.Log("cell: " + cell);
+            if (a.CheckNotBoundries(new Vector2Int(cell.x, -cell.y))) {
                 var posVector = new Vector2Int(cell.x, -cell.y);
+                //Debug.Log("posVector: " + posVector);
                 if(a.cells[posVector.x][posVector.y].plants == PuzzleCell.PlantType.P) {
                     a.ApplyGrowth(posVector, PuzzleCell.PlantType.P);
                 }

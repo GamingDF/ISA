@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TurnController : MonoBehaviour
 {
@@ -10,7 +11,12 @@ public class TurnController : MonoBehaviour
     public int cSeeds;
 
     public bool interturns;
+    [SerializeField]
+    private int turnsQuantity;
+    [SerializeField]
+    private Text turnsText;
 
+    public int turnsLeft;
     private PuzzleArea area;
     private MapController map;
 
@@ -30,6 +36,7 @@ public class TurnController : MonoBehaviour
     {
         area = GetComponent<PuzzleArea>();
         map = GetComponent<MapController>();
+        StartPuzzle();
     }
 
     // Update is called once per frame
@@ -58,8 +65,42 @@ public class TurnController : MonoBehaviour
                 }
             }
 
+            //Teste de vitória e derrota
+            if (turnsLeft > 0) {
+                if (CheckVictory()) {
+                    Debug.Log("Victory!");
+                }
+                turnsLeft--;
+                turnsText.text = "Turns Left: " + turnsLeft;
+            }
+            else {
+                if (CheckVictory()) {
+                    Debug.Log("Victory!");
+                }
+                else {
+                    Debug.Log("Defeat!");
+                }
+            }
+
             interturns = false;
         }
+    }
+
+    public bool CheckVictory() {
+        for(int i = 0; i < area.cells.Count; i++) {
+            for (int j = 0; j < area.cells[0].Count; j++) {
+                if(area.cells[i][j].plants == PuzzleCell.PlantType.None) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
+    public void StartPuzzle() {
+        turnsLeft = turnsQuantity;
+        turnsText.text = "Turns Left: " + turnsLeft;
     }
 
     public void PassTurn() {
