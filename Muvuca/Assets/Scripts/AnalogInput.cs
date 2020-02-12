@@ -10,6 +10,7 @@ public class AnalogInput : MonoBehaviour {
 	Vector3 _analogScreen = Vector3.zero;
 	float _timer = 0;
 	bool _active = false;
+	public bool IsActive => _active;
 	[SerializeField] Vector2 _axis;
 	public Vector2 Axis => _axis;
 

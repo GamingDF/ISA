@@ -71,6 +71,7 @@ public class NodeGrid : MonoBehaviour {
 	}
 
 	void OnDrawGizmosSelected() {
+		Gizmos.color = Color.yellow;
 		Gizmos.DrawWireCube(transform.position, new Vector3(gridWorldSize.x, gridWorldSize.y, 1));
 
 		if (grid != null && displayGridGizmos) {
