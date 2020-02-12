@@ -43,6 +43,7 @@ public class TurnController : MonoBehaviour
     void Update()
     {
         if (interturns) {
+            int victoryDegree = 0;
             List<List<PuzzleCell>> cellsAux = new List<List<PuzzleCell>>(); ;
 
             int count = 0;
@@ -74,6 +75,11 @@ public class TurnController : MonoBehaviour
                                 area.ApplyGrowth(new Vector2Int(i, j), cellsAux[i][j].plants);
                             }
                         }
+                        else if (cellsAux[i][j].plants == PuzzleCell.PlantType.C) {
+                            if (CheckOnClimax(cellsAux[i][j])) {
+                                victoryDegree++;
+                            }
+                        }
                     }
                 }
             }
@@ -82,6 +88,7 @@ public class TurnController : MonoBehaviour
             if (turnsLeft > 0) {
                 if (CheckVictory()) {
                     Debug.Log("Victory!");
+                    Debug.Log("Victory Deegre: " + victoryDegree);
                 }
                 turnsLeft--;
                 turnsText.text = "Turns Left: " + turnsLeft;
@@ -109,6 +116,22 @@ public class TurnController : MonoBehaviour
         }
 
         return true;
+    }
+
+    public bool CheckOnClimax(PuzzleCell cell) {
+        int count = 0;
+        foreach(PuzzleCell.PlantType p in cell.plantsToGrow) {
+            if (!cell.progressToWin.Contains(p)) {
+                count++;
+            }
+        }
+
+        if(count >= cell.plantsToGrow.Count) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
     public void StartPuzzle() {

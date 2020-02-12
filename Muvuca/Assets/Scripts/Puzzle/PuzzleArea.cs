@@ -28,10 +28,31 @@ public class PuzzleArea : MonoBehaviour
 
     private void Start() {
         //Mapa teste
-        CreatePlant(new Vector2Int(1, 1), PuzzleCell.PlantType.AV);
-        CreatePlant(new Vector2Int(3, 1), PuzzleCell.PlantType.P);
-        CreatePlant(new Vector2Int(3, 4), PuzzleCell.PlantType.P);
-        CreatePlant(new Vector2Int(2, 6), PuzzleCell.PlantType.S);
+        for(int i = 0; i < gridSize; i++) {
+            cells[i][0].isObstacle = true;
+            map.CallInstantiate(PuzzleCell.PlantType.None, i, 0, true);
+        }
+
+        for(int i = 0; i < gridSize; i++) {
+            cells[gridSize - 1][i].isObstacle = true;
+            map.CallInstantiate(PuzzleCell.PlantType.None, 0, i, true);
+        }
+
+        CreatePlant(new Vector2Int(0, 1), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.P });
+        CreatePlant(new Vector2Int(6, 2), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.AV, PuzzleCell.PlantType.S });
+        CreatePlant(new Vector2Int(5, 4), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.AV, PuzzleCell.PlantType.P });
+
+        CreatePlant(new Vector2Int(1, 2), PuzzleCell.PlantType.P);
+        CreatePlant(new Vector2Int(1, 5), PuzzleCell.PlantType.P);
+        CreatePlant(new Vector2Int(5, 5), PuzzleCell.PlantType.P);
+
+        CreatePlant(new Vector2Int(0, 7), PuzzleCell.PlantType.AV);
+        CreatePlant(new Vector2Int(4, 2), PuzzleCell.PlantType.AV);
+        CreatePlant(new Vector2Int(4, 3), PuzzleCell.PlantType.AV);
+        CreatePlant(new Vector2Int(4, 4), PuzzleCell.PlantType.AV);
+
+        CreatePlant(new Vector2Int(3, 7), PuzzleCell.PlantType.S);
+        CreatePlant(new Vector2Int(6, 1), PuzzleCell.PlantType.S);
     }
 
     // Update is called once per frame
@@ -69,7 +90,7 @@ public class PuzzleArea : MonoBehaviour
         }*/
     }
 
-    public void CreatePlant(Vector2Int c, PuzzleCell.PlantType t) {
+    public void CreatePlant(Vector2Int c, PuzzleCell.PlantType t, PuzzleCell.PlantType[] p = null) {
         cells[c.x][c.y].plants = t;
         switch (t) {
             case PuzzleCell.PlantType.AV:
@@ -84,7 +105,7 @@ public class PuzzleArea : MonoBehaviour
                 cells[c.x][c.y].turnsToGrow = 5;
                 break;
             case PuzzleCell.PlantType.C:
-                cells[c.x][c.y].influenced = PuzzleCell.InfluenceType.Double;
+                cells[c.x][c.y] = new PuzzleCell(PuzzleCell.PlantType.C, PuzzleCell.InfluenceType.Double, p);
                 break;
         }
         map.CallInstantiate(t, c.x, c.y);
@@ -98,7 +119,17 @@ public class PuzzleArea : MonoBehaviour
         //Adubo verde
         if(p == PuzzleCell.PlantType.AV) {
             if (CheckNotBoundries(new Vector2Int(pos.x + 1, pos.y))) {
-                if(cells[pos.x + 1][pos.y].plants != PuzzleCell.PlantType.None &&
+                if(cells[pos.x + 1][pos.y].isObstacle) {
+                    return;
+                }
+
+                if(cells[pos.x + 1][pos.y].plants == PuzzleCell.PlantType.C) {
+                    if(cells[pos.x + 1][pos.y].plantsToGrow.Contains(PuzzleCell.PlantType.AV) &&
+                        !cells[pos.x + 1][pos.y].progressToWin.Contains(PuzzleCell.PlantType.AV)){
+                        cells[pos.x + 1][pos.y].progressToWin.Add(PuzzleCell.PlantType.AV);
+                    }
+                }
+                else if(cells[pos.x + 1][pos.y].plants != PuzzleCell.PlantType.None &&
                     cells[pos.x + 1][pos.y].plants != PuzzleCell.PlantType.C) {
                     cells[pos.x + 1][pos.y].plants = PuzzleCell.PlantType.AV;
                     cells[pos.x + 1][pos.y].influenced = PuzzleCell.InfluenceType.AVOnly;
@@ -117,7 +148,17 @@ public class PuzzleArea : MonoBehaviour
             for (int i = -1; i <= 1; i++) {
                 for (int j = -1; j <= 1; j++) {
                     if (CheckNotBoundries(new Vector2Int(pos.x + i, pos.y + j))){
-                        if (cells[pos.x + i][pos.y + j].influenced == PuzzleCell.InfluenceType.None) {
+                        if (cells[pos.x + i][pos.y + j].isObstacle) {
+                            continue;
+                        }
+
+                        if (cells[pos.x + i][pos.y + j].plants == PuzzleCell.PlantType.C) {
+                            if (cells[pos.x + i][pos.y + j].plantsToGrow.Contains(PuzzleCell.PlantType.P) &&
+                                !cells[pos.x + i][pos.y + j].progressToWin.Contains(PuzzleCell.PlantType.P)) {
+                                cells[pos.x + i][pos.y + j].progressToWin.Add(PuzzleCell.PlantType.P);
+                            }
+                        }
+                        else if (cells[pos.x + i][pos.y + j].influenced == PuzzleCell.InfluenceType.None) {
                             cells[pos.x + i][pos.y + j].influenced = PuzzleCell.InfluenceType.PSingle;
                         }
                     }
@@ -127,14 +168,62 @@ public class PuzzleArea : MonoBehaviour
 
         //Secundária
         if (p == PuzzleCell.PlantType.S) {
+            bool triggerX = false;
+            bool triggerY = false;
+            int startX = 0;
+            int startY = 0;
+            int stopOnX = gridSize - 1;
+            int stopOnY = gridSize - 1;
+
+            int w = 0;
             for (int i = 0; i < gridSize; i++) {
-                for (int j = 0; j <= gridSize; j++) {
+                if (cells[i][w].isObstacle && i == pos.x) {
+                    if (pos.x > i) {
+                        startX = i;
+                    }
+                    else {
+                        if (!triggerX) {
+                            stopOnX = i;
+                            triggerX = true;
+                        }
+                    }
+                }
+
+                for (int j = 0; j < gridSize; j++) {
+                    if (i == pos.x || j == pos.y) {
+                        Debug.Log("i: " + i + ",j: " + j);
+                        if (CheckNotBoundries(new Vector2Int(i, j))) {
+                            if (cells[i][j].isObstacle) {
+                                if (pos.y > j) {
+                                    startY = j;
+                                }
+                                else {
+                                    if (!triggerY) {
+                                        stopOnY = j;
+                                        triggerY = true;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                w++;
+            }
+
+            for (int i = startX; i <= stopOnX; i++) {
+                for (int j = startY; j <= stopOnY; j++) {
                     Debug.Log("Iteracao");
                     if (i == pos.x || j == pos.y) {
                         Debug.Log("i: " + i + ",j: " + j);
                         if (CheckNotBoundries(new Vector2Int(i, j))) {
                             Debug.Log("In boundries");
-                            if (cells[i][j].influenced == PuzzleCell.InfluenceType.None) {
+                            if (cells[i][j].plants == PuzzleCell.PlantType.C) {
+                                if (cells[i][j].plantsToGrow.Contains(PuzzleCell.PlantType.S) &&
+                                    !cells[i][j].progressToWin.Contains(PuzzleCell.PlantType.S)) {
+                                    cells[i][j].progressToWin.Add(PuzzleCell.PlantType.S);
+                                }
+                            }
+                            else if (cells[i][j].influenced == PuzzleCell.InfluenceType.None) {
                                 Debug.Log("Virou S");
                                 cells[i][j].influenced = PuzzleCell.InfluenceType.SSingle;
                             }

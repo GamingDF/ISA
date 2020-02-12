@@ -15,6 +15,8 @@ public class MapController : MonoBehaviour
     private GameObject sPrefab;
     [SerializeField]
     private GameObject cPrefab;
+    [SerializeField]
+    private GameObject obstaclePrefab;
 
     private PuzzleArea area;
     private Grid g;
@@ -51,7 +53,10 @@ public class MapController : MonoBehaviour
                 else if (area.cells[i][j].plants.Contains(PuzzleCell.PlantType.AV)) {
                     Instantiate(avPrefab, mapHolder.position + new Vector3(i, j, 0), Quaternion.identity, mapHolder);
                 }*/
-                if (area.cells[i][j].influenced == PuzzleCell.InfluenceType.Double) {
+                if (area.cells[i][j].isObstacle) {
+                    CallInstantiate(PuzzleCell.PlantType.None, i, j, true);
+                }
+                else if (area.cells[i][j].influenced == PuzzleCell.InfluenceType.Double) {
                     CallInstantiate(PuzzleCell.PlantType.C, i, j);
                 }
                 else if (area.cells[i][j].influenced == PuzzleCell.InfluenceType.SSingle) {
@@ -66,8 +71,14 @@ public class MapController : MonoBehaviour
             }
         }
     }
-    public void CallInstantiate(PuzzleCell.PlantType p, int i, int j) {
+    public void CallInstantiate(PuzzleCell.PlantType p, int i, int j, bool isObstacle = false) {
         Vector3 pos = g.GetCellCenterWorld(g.WorldToCell(mapHolder.position + new Vector3(i, -j, 0)));
+
+        if (isObstacle) {
+            Instantiate(obstaclePrefab, pos, Quaternion.identity, mapHolder);
+            return;
+        }
+
         switch (p) {
             case PuzzleCell.PlantType.AV:
                 Instantiate(avPrefab, pos, Quaternion.identity, mapHolder);

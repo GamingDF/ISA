@@ -36,7 +36,7 @@ public class ToolCursor : MonoBehaviour
             if (a.CheckNotBoundries(new Vector2Int(cell.x, -cell.y))) {
                 var posVector = new Vector2Int(cell.x, -cell.y);
                 //Debug.Log("posVector: " + posVector);
-                if(a.cells[posVector.x][posVector.y].plants == PuzzleCell.PlantType.P) {
+                if(a.cells[posVector.x][posVector.y].plants == PuzzleCell.PlantType.P && tool == ToolType.Sun) {
                     a.ApplyGrowth(posVector, PuzzleCell.PlantType.P);
                 }
                 else if(a.cells[posVector.x][posVector.y].plants == PuzzleCell.PlantType.S && tool == ToolType.Shadow) {

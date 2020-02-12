@@ -682,6 +682,8 @@ MonoBehaviour:
   pPrefab: {fileID: 6894494026015436880, guid: 4b896e5e78ec0b2459969792d847ed9b, type: 3}
   sPrefab: {fileID: 8195877339617542718, guid: fd004c813f0618442b78fd0e4788bb26, type: 3}
   cPrefab: {fileID: 8785812420294667810, guid: dccda97758cac9540a34a79a0d34ebeb, type: 3}
+  obstaclePrefab: {fileID: 377771135598674433, guid: b7f019325fbb8da4cab9b3e581ed0abf,
+    type: 3}
 --- !u!114 &1938512613
 MonoBehaviour:
   m_ObjectHideFlags: 0
