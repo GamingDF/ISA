@@ -12,9 +12,9 @@ public class DialogueController : MonoBehaviour
     }
 
     [SerializeField]
-    private GameObject dialogueBox;
+    private GameObject dialogueBox = null;
     [SerializeField]
-    private bool playSoundOnText;
+    private bool playSoundOnText = false;
 
     public Dialogue[] toShow;
 
@@ -36,7 +36,7 @@ public class DialogueController : MonoBehaviour
     }
 
     private void Start() {
-        
+
     }
 
     private void Update() {
