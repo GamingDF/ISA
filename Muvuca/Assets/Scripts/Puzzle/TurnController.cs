@@ -50,7 +50,12 @@ public class TurnController : MonoBehaviour
             foreach (List<PuzzleCell> l in area.cells) {
                 cellsAux.Add(new List<PuzzleCell>());
                 foreach (PuzzleCell p in l) {
-                    cellsAux[count].Add(new PuzzleCell(p.plants, p.influenced));
+                    if (p.plants == PuzzleCell.PlantType.C) {
+                        cellsAux[count].Add(new PuzzleCell(p.plants, p.influenced, p.plantsToGrow.ToArray()));
+                    }
+                    else {
+                        cellsAux[count].Add(new PuzzleCell(p.plants, p.influenced));
+                    }
                 }
                 count++;
             }
@@ -76,7 +81,7 @@ public class TurnController : MonoBehaviour
                             }
                         }
                         else if (cellsAux[i][j].plants == PuzzleCell.PlantType.C) {
-                            if (CheckOnClimax(cellsAux[i][j])) {
+                            if (CheckOnClimax(area.cells[i][j])) {
                                 victoryDegree++;
                             }
                         }
@@ -109,7 +114,13 @@ public class TurnController : MonoBehaviour
     public bool CheckVictory() {
         for(int i = 0; i < area.cells.Count; i++) {
             for (int j = 0; j < area.cells[0].Count; j++) {
-                if(area.cells[i][j].plants == PuzzleCell.PlantType.None) {
+                if(area.cells[i][j].plants == PuzzleCell.PlantType.None &&
+                    area.cells[i][j].influenced == PuzzleCell.InfluenceType.None) {
+                    if (area.cells[i][j].isObstacle) {
+                        continue;
+                    }
+
+                    Debug.Log("Not complete");
                     return false;
                 }
             }
@@ -121,12 +132,15 @@ public class TurnController : MonoBehaviour
     public bool CheckOnClimax(PuzzleCell cell) {
         int count = 0;
         foreach(PuzzleCell.PlantType p in cell.plantsToGrow) {
-            if (!cell.progressToWin.Contains(p)) {
+            Debug.Log("Iterou");
+            if (cell.progressToWin.Contains(p)) {
+                Debug.Log("Count++");
                 count++;
             }
         }
 
         if(count >= cell.plantsToGrow.Count) {
+            Debug.Log("Alcançou");
             return true;
         }
         else {

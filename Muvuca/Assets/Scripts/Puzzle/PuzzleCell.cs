@@ -38,8 +38,13 @@ public class PuzzleCell
         plants = p;
 
         if(p == PlantType.C) {
-            plantsToGrow = new List<PlantType>(toGrow);
+            plantsToGrow = new List<PlantType>();
             progressToWin = new List<PlantType>();
+
+            for(int c = 0; c < toGrow.Length; c++) {
+                Debug.Log("Adicionou");
+                plantsToGrow.Add(toGrow[c]);
+            }
         }
     }
 }

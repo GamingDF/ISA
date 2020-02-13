@@ -35,7 +35,7 @@ public class PuzzleArea : MonoBehaviour
 
         for(int i = 0; i < gridSize; i++) {
             cells[gridSize - 1][i].isObstacle = true;
-            map.CallInstantiate(PuzzleCell.PlantType.None, 0, i, true);
+            map.CallInstantiate(PuzzleCell.PlantType.None, gridSize - 1, i, true);
         }
 
         CreatePlant(new Vector2Int(0, 1), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.P });
@@ -126,6 +126,7 @@ public class PuzzleArea : MonoBehaviour
                 if(cells[pos.x + 1][pos.y].plants == PuzzleCell.PlantType.C) {
                     if(cells[pos.x + 1][pos.y].plantsToGrow.Contains(PuzzleCell.PlantType.AV) &&
                         !cells[pos.x + 1][pos.y].progressToWin.Contains(PuzzleCell.PlantType.AV)){
+                        Debug.Log("AV added");
                         cells[pos.x + 1][pos.y].progressToWin.Add(PuzzleCell.PlantType.AV);
                     }
                 }
@@ -156,6 +157,7 @@ public class PuzzleArea : MonoBehaviour
                             if (cells[pos.x + i][pos.y + j].plantsToGrow.Contains(PuzzleCell.PlantType.P) &&
                                 !cells[pos.x + i][pos.y + j].progressToWin.Contains(PuzzleCell.PlantType.P)) {
                                 cells[pos.x + i][pos.y + j].progressToWin.Add(PuzzleCell.PlantType.P);
+                                Debug.Log("P added");
                             }
                         }
                         else if (cells[pos.x + i][pos.y + j].influenced == PuzzleCell.InfluenceType.None) {
@@ -191,7 +193,6 @@ public class PuzzleArea : MonoBehaviour
 
                 for (int j = 0; j < gridSize; j++) {
                     if (i == pos.x || j == pos.y) {
-                        Debug.Log("i: " + i + ",j: " + j);
                         if (CheckNotBoundries(new Vector2Int(i, j))) {
                             if (cells[i][j].isObstacle) {
                                 if (pos.y > j) {
@@ -212,19 +213,16 @@ public class PuzzleArea : MonoBehaviour
 
             for (int i = startX; i <= stopOnX; i++) {
                 for (int j = startY; j <= stopOnY; j++) {
-                    Debug.Log("Iteracao");
                     if (i == pos.x || j == pos.y) {
-                        Debug.Log("i: " + i + ",j: " + j);
                         if (CheckNotBoundries(new Vector2Int(i, j))) {
-                            Debug.Log("In boundries");
                             if (cells[i][j].plants == PuzzleCell.PlantType.C) {
                                 if (cells[i][j].plantsToGrow.Contains(PuzzleCell.PlantType.S) &&
                                     !cells[i][j].progressToWin.Contains(PuzzleCell.PlantType.S)) {
                                     cells[i][j].progressToWin.Add(PuzzleCell.PlantType.S);
+                                    Debug.Log("S added");
                                 }
                             }
                             else if (cells[i][j].influenced == PuzzleCell.InfluenceType.None) {
-                                Debug.Log("Virou S");
                                 cells[i][j].influenced = PuzzleCell.InfluenceType.SSingle;
                             }
                         }
