@@ -14,4 +14,8 @@ public class DialogueInstance : MonoBehaviour {
 			DialogueController.Instance.CallDialogue(dialogues);
 		}
 	}
+
+	public void CallDialog() {
+		DialogueController.Instance.CallDialogue(dialogues);
+	}
 }
