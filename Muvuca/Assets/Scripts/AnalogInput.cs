@@ -11,6 +11,8 @@ public class AnalogInput : MonoBehaviour {
 	float _timer = 0;
 	bool _active = false;
 	public bool IsActive => _active;
+	bool _deactivated = false;
+	public bool Deactivated => _deactivated;
 	[SerializeField] Vector2 _axis;
 	public Vector2 Axis => _axis;
 
@@ -39,11 +41,13 @@ public class AnalogInput : MonoBehaviour {
 	}
 
 	void CheckActive() {
+		_deactivated = false;
 		if (Input.touchCount > 0) {
 			Touch touch = Input.GetTouch(0);
 			if (_active) {
 				if (touch.phase == TouchPhase.Ended) {
 					_active = false;
+					_deactivated = true;
 					_analogScreen = Vector3.zero;
 					_analogPosition = Vector3.zero;
 					_axis = Vector2.zero;
