@@ -178,7 +178,33 @@ public class PuzzleArea : MonoBehaviour
             int stopOnY = gridSize - 1;
 
             int w = 0;
-            for (int i = 0; i < gridSize; i++) {
+
+            for(int i = 0; i < pos.x; i++) {
+                if (cells[i][pos.y].isObstacle) {
+                    startX = Mathf.Clamp(i - 1, 0, gridSize - 1);
+                }
+            }
+
+            for(int i = 0; i < pos.y; i++) {
+                if (cells[pos.x][i].isObstacle) {
+                    startY = Mathf.Clamp(i - 1, 0, gridSize - 1);
+                }
+            }
+
+            for(int i = pos.x; i < gridSize; i++) {
+                if (cells[i][pos.y].isObstacle) {
+                    stopOnX = Mathf.Clamp(i - 1, pos.x + 1, gridSize - 1);
+                    break;
+                }
+            }
+
+            for (int i = pos.y; i < gridSize; i++) {
+                if (cells[pos.x][i].isObstacle) {
+                    stopOnY = Mathf.Clamp(i - 1, pos.y + 1, gridSize - 1);
+                    break;
+                }
+            }
+            /*for (int i = 0; i < gridSize; i++) {
                 if (cells[i][w].isObstacle && i == pos.x) {
                     if (pos.x > i) {
                         startX = i;
@@ -209,13 +235,57 @@ public class PuzzleArea : MonoBehaviour
                     }
                 }
                 w++;
-            }
+            }*/
+
+            Debug.Log("Start:" + startX + ", " + startY);
+            Debug.Log("Stop:" + stopOnX + ", " + stopOnY);
 
             for (int i = startX; i <= stopOnX; i++) {
                 for (int j = startY; j <= stopOnY; j++) {
+                    Debug.Log("Iterating on S");
                     if (i == pos.x || j == pos.y) {
+                        Debug.Log("Is same line or column");
                         if (CheckNotBoundries(new Vector2Int(i, j))) {
+                            Debug.Log("S is on boundries");
                             if (cells[i][j].plants == PuzzleCell.PlantType.C) {
+                                Debug.Log("Is C type");
+                                //Teste
+                                Debug.Log(i + ", " + j);
+
+                                foreach(PuzzleCell.PlantType planta in cells[i][j].plantsToGrow) {
+                                    switch (planta) {
+                                        case PuzzleCell.PlantType.AV:
+                                            Debug.Log("AV here");
+                                            break;
+                                        case PuzzleCell.PlantType.P:
+                                            Debug.Log("P here");
+                                            break;
+                                        case PuzzleCell.PlantType.S:
+                                            Debug.Log("S here");
+                                            break;
+                                        case PuzzleCell.PlantType.C:
+                                            Debug.Log("C here");
+                                            break;
+                                    }
+                                }
+
+                                foreach (PuzzleCell.PlantType planta in cells[i][j].progressToWin) {
+                                    switch (planta) {
+                                        case PuzzleCell.PlantType.AV:
+                                            Debug.Log("AV here 2");
+                                            break;
+                                        case PuzzleCell.PlantType.P:
+                                            Debug.Log("P here 2");
+                                            break;
+                                        case PuzzleCell.PlantType.S:
+                                            Debug.Log("S here 2");
+                                            break;
+                                        case PuzzleCell.PlantType.C:
+                                            Debug.Log("C here 2");
+                                            break;
+                                    }
+                                }
+                                //fim do teste
                                 if (cells[i][j].plantsToGrow.Contains(PuzzleCell.PlantType.S) &&
                                     !cells[i][j].progressToWin.Contains(PuzzleCell.PlantType.S)) {
                                     cells[i][j].progressToWin.Add(PuzzleCell.PlantType.S);
