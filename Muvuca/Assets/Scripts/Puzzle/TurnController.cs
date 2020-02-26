@@ -68,7 +68,7 @@ public class TurnController : MonoBehaviour
                         if (cellsAux[i][j].plants == PuzzleCell.PlantType.AV) {
                             area.ApplyGrowth(new Vector2Int(i, j), cellsAux[i][j].plants);
                         }
-                        else if (cellsAux[i][j].plants == PuzzleCell.PlantType.P) {
+                        /*else if (cellsAux[i][j].plants == PuzzleCell.PlantType.P) {
                             area.cells[i][j].turnsToGrow--;
                             if(area.cells[i][j].turnsToGrow <= 0) {
                                 area.ApplyGrowth(new Vector2Int(i, j), cellsAux[i][j].plants);
@@ -79,7 +79,7 @@ public class TurnController : MonoBehaviour
                             if (area.cells[i][j].turnsToGrow <= 0) {
                                 area.ApplyGrowth(new Vector2Int(i, j), cellsAux[i][j].plants);
                             }
-                        }
+                        }*/
                         else if (cellsAux[i][j].plants == PuzzleCell.PlantType.C) {
                             if (CheckOnClimax(area.cells[i][j])) {
                                 victoryDegree++;
