@@ -42,9 +42,9 @@ public class ToolCursor : MonoBehaviour
                 else if(a.cells[posVector.x][posVector.y].plants == PuzzleCell.PlantType.S && tool == ToolType.Shadow) {
                     a.ApplyGrowth(posVector, PuzzleCell.PlantType.S);
                 }
-            }
 
-            TurnController.Instance.PassTurn();
+                TurnController.Instance.PassTurn();
+            }
         }
 
         //Teste de troca de ferramenta
@@ -54,5 +54,13 @@ public class ToolCursor : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha2)) {
             tool = ToolType.Sun;
         }
+    }
+
+    public void SetSunTool() {
+        tool = ToolType.Sun;
+    }
+
+    public void SetShadowTool() {
+        tool = ToolType.Shadow;
     }
 }
