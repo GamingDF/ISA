@@ -28,19 +28,21 @@ public class ToolCursor : MonoBehaviour
     {
         //Segue o mouse
         var mouseWPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        var cell = g.WorldToCell(mouseWPos);
+        var cell = g.WorldToCell(mouseWPos) + new Vector3Int(0,1,0);
         transform.position = g.GetCellCenterWorld(cell);
 
         if (Input.GetMouseButtonDown(0)) {
             //Debug.Log("cell: " + cell);
             if (a.CheckNotBoundries(new Vector2Int(cell.x, -cell.y))) {
                 var posVector = new Vector2Int(cell.x, -cell.y);
-                //Debug.Log("posVector: " + posVector);
+                Debug.Log("posVector: " + posVector);
                 if(a.cells[posVector.x][posVector.y].plants == PuzzleCell.PlantType.P && tool == ToolType.Sun) {
                     a.ApplyGrowth(posVector, PuzzleCell.PlantType.P);
+                    a.cells[posVector.x][posVector.y].showBroto = false;
                 }
                 else if(a.cells[posVector.x][posVector.y].plants == PuzzleCell.PlantType.S && tool == ToolType.Shadow) {
                     a.ApplyGrowth(posVector, PuzzleCell.PlantType.S);
+                    a.cells[posVector.x][posVector.y].showBroto = false;
                 }
 
                 TurnController.Instance.PassTurn();

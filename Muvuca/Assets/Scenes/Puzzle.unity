@@ -1037,7 +1037,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700721529}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1110,6 +1110,8 @@ MonoBehaviour:
   cPrefab: {fileID: 8785812420294667810, guid: dccda97758cac9540a34a79a0d34ebeb, type: 3}
   obstaclePrefab: {fileID: 377771135598674433, guid: b7f019325fbb8da4cab9b3e581ed0abf,
     type: 3}
+  brotoPrefab: {fileID: 4277191204342521229, guid: 323aa9d87b52d5c499bda1c77821b554,
+    type: 3}
 --- !u!114 &1938512613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1123,6 +1125,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridSize: 8
+  obstacleSprites:
+  - {fileID: 21300000, guid: 20d648cc9e07d1444b42e5e42e164c49, type: 3}
+  - {fileID: 21300000, guid: d201060e48a634143a953c255b2917ab, type: 3}
 --- !u!114 &1938512614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1987,6 +1992,11 @@ PrefabInstance:
     - target: {fileID: 2258509531069239340, guid: 36f3af6d68b492641bc5d8311f1eef21,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666233721786126790, guid: 36f3af6d68b492641bc5d8311f1eef21,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5700290892558767381, guid: 36f3af6d68b492641bc5d8311f1eef21,

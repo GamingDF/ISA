@@ -28,6 +28,9 @@ public class PuzzleCell
     public List<PlantType> progressToWin;
 
     public bool isObstacle;
+    public Sprite obstacleSprite;
+
+    public bool showBroto;
 
     public PuzzleCell() {
         plants = PlantType.None;
@@ -40,6 +43,7 @@ public class PuzzleCell
         if(p == PlantType.C) {
             plantsToGrow = new List<PlantType>();
             progressToWin = new List<PlantType>();
+            showBroto = false;
 
             for(int c = 0; c < toGrow.Length; c++) {
                 Debug.Log("Adicionou");

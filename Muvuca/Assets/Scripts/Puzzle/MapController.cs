@@ -17,6 +17,8 @@ public class MapController : MonoBehaviour
     private GameObject cPrefab;
     [SerializeField]
     private GameObject obstaclePrefab;
+    [SerializeField]
+    private GameObject brotoPrefab;
 
     private PuzzleArea area;
     private Grid g;
@@ -75,23 +77,31 @@ public class MapController : MonoBehaviour
         Vector3 pos = g.GetCellCenterWorld(g.WorldToCell(mapHolder.position + new Vector3(i, -j, 0)));
 
         if (isObstacle) {
-            Instantiate(obstaclePrefab, pos, Quaternion.identity, mapHolder);
+            GameObject obj = Instantiate(obstaclePrefab, pos, Quaternion.identity, mapHolder);
+            obj.GetComponent<ObstacleController>().SetSprite(area.cells[i][j].obstacleSprite);
             return;
         }
 
+        GameObject cellObj = null;
+
         switch (p) {
             case PuzzleCell.PlantType.AV:
-                Instantiate(avPrefab, pos, Quaternion.identity, mapHolder);
+                cellObj = Instantiate(avPrefab, pos, Quaternion.identity, mapHolder);
                 break;
             case PuzzleCell.PlantType.P:
-                Instantiate(pPrefab, pos, Quaternion.identity, mapHolder);
+                cellObj = Instantiate(pPrefab, pos, Quaternion.identity, mapHolder);
                 break;
             case PuzzleCell.PlantType.S:
-                Instantiate(sPrefab, pos, Quaternion.identity, mapHolder);
+                cellObj = Instantiate(sPrefab, pos, Quaternion.identity, mapHolder);
                 break;
             case PuzzleCell.PlantType.C:
-                Instantiate(cPrefab, pos, Quaternion.identity, mapHolder);
+                cellObj = Instantiate(cPrefab, pos, Quaternion.identity, mapHolder);
                 break;
+        }
+
+        if (area.cells[i][j].showBroto) {
+            GameObject broto = Instantiate(brotoPrefab, cellObj.transform);
+            broto.transform.localPosition = new Vector3(0, 0, -1);
         }
     }
 

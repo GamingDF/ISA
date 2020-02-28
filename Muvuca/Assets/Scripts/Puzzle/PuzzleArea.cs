@@ -8,6 +8,10 @@ public class PuzzleArea : MonoBehaviour
     [Tooltip("Altura e largura da grid")]
     [SerializeField]
     private int gridSize;
+
+    [SerializeField]
+    private Sprite[] obstacleSprites;
+
     public List<List<PuzzleCell>> cells;
 
     private Tilemap tilemap;
@@ -30,11 +34,13 @@ public class PuzzleArea : MonoBehaviour
         //Mapa teste
         for(int i = 0; i < gridSize; i++) {
             cells[i][0].isObstacle = true;
+            cells[i][0].obstacleSprite = obstacleSprites[0];
             map.CallInstantiate(PuzzleCell.PlantType.None, i, 0, true);
         }
 
         for(int i = 0; i < gridSize; i++) {
             cells[gridSize - 1][i].isObstacle = true;
+            cells[gridSize - 1][i].obstacleSprite = obstacleSprites[1];
             map.CallInstantiate(PuzzleCell.PlantType.None, gridSize - 1, i, true);
         }
 
@@ -92,6 +98,9 @@ public class PuzzleArea : MonoBehaviour
 
     public void CreatePlant(Vector2Int c, PuzzleCell.PlantType t, PuzzleCell.PlantType[] p = null) {
         cells[c.x][c.y].plants = t;
+
+        cells[c.x][c.y].showBroto = true;
+
         switch (t) {
             case PuzzleCell.PlantType.AV:
                 cells[c.x][c.y].influenced = PuzzleCell.InfluenceType.AVOnly;
@@ -108,6 +117,7 @@ public class PuzzleArea : MonoBehaviour
                 cells[c.x][c.y] = new PuzzleCell(PuzzleCell.PlantType.C, PuzzleCell.InfluenceType.Double, p);
                 break;
         }
+
         map.CallInstantiate(t, c.x, c.y);
     }
 
