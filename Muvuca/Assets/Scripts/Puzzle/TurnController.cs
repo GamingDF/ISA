@@ -17,8 +17,11 @@ public class TurnController : MonoBehaviour
     private Text turnsText;
 
     public int turnsLeft;
+    public bool defeated;
     private PuzzleArea area;
     private MapController map;
+    [SerializeField]
+    private GameObject defeatPanel;
 
     public static TurnController Instance { get; private set; }
 
@@ -42,6 +45,10 @@ public class TurnController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (defeated) {
+            return;
+        }
+
         if (interturns) {
             int victoryDegree = 0;
             List<List<PuzzleCell>> cellsAux = new List<List<PuzzleCell>>(); ;
@@ -90,7 +97,7 @@ public class TurnController : MonoBehaviour
             }
 
             //Teste de vitória e derrota
-            if (turnsLeft > 0) {
+            if (turnsLeft > 1) {
                 if (CheckVictory()) {
                     Debug.Log("Victory!");
                     Debug.Log("Victory Deegre: " + victoryDegree);
@@ -104,6 +111,7 @@ public class TurnController : MonoBehaviour
                 }
                 else {
                     Debug.Log("Defeat!");
+                    GameDefeat();
                 }
             }
 
@@ -157,5 +165,13 @@ public class TurnController : MonoBehaviour
         Debug.Log("Passing turn");
         interturns = true;
         map.drawMap = true;
+    }
+
+    private void GameDefeat() {
+        defeated = true;
+        defeatPanel.SetActive(true);
+
+        Instance = null;
+        Destroy(gameObject);
     }
 }

@@ -26,6 +26,10 @@ public class ToolCursor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(g == null) {
+            return;
+        }
+
         //Segue o mouse
         var mouseWPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         var cell = g.WorldToCell(mouseWPos) + new Vector3Int(0,1,0);

@@ -33,6 +33,10 @@ public class MapController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(GetComponent<TurnController>() == null) {
+            return;
+        }
+
         if (drawMap && !GetComponent<TurnController>().interturns) {
             CleanMap();
             CreateMap();
