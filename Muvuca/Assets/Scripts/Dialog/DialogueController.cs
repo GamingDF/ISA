@@ -46,7 +46,7 @@ public class DialogueController : MonoBehaviour {
 			NextDialogue(toShow[branch].text[dNumber]);
 		}
 
-		if (Input.GetKeyDown(KeyCode.Return)) {
+		if (Input.GetKeyDown(KeyCode.Return) || TapInput.Instance.IsSingle) {
 			if (goToNextDialogue) {
 				goToNextDialogue = false;
 				dNumber++;
@@ -109,6 +109,8 @@ public class DialogueController : MonoBehaviour {
 			_fsm.Fsm.Event("DialogEnd");
 		}
 		_fsm = null;
+		branch = 0;
+		dNumber = 0;
 	}
 
 	private void NextDialogue(string d) {
