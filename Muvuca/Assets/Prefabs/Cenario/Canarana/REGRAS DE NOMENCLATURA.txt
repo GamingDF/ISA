@@ -1,0 +1,12 @@
+Separada por região:
+ 
+0 - Casa da Yasmin (1 área)
+1 - Jardim (4 áreas)
+2 - Ônibus (1 área)
+3 - Caminho até a cidade (1 área)
+4 - Cidade (9 áreas)
+
+Tiles por área: 32 x 32
+
+
+Exemplo de nomenclatura do prefab (casa da Yasmin): canarana_0_0   ou seja, canarana_região_área
