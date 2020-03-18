@@ -35,10 +35,6 @@ public class DialogueController : MonoBehaviour {
 		}
 	}
 
-	private void Start() {
-
-	}
-
 	private void Update() {
 		if (startDialogue) {
 			startDialogue = false;
@@ -72,24 +68,6 @@ public class DialogueController : MonoBehaviour {
 		if (playSoundOnText) {
 			GetComponent<AudioSource>().Play();
 		}
-	}
-
-	public void CallDialogue(Dialogue[] d) {
-		onDialogue = true;
-		startDialogue = true;
-
-		toShow = d;
-
-		dialogueBox.SetActive(true);
-	}
-
-	public void CallDialogue(ScriptableDialog dialog) {
-		onDialogue = true;
-		startDialogue = true;
-
-		toShow = dialog.dialog;
-
-		dialogueBox.SetActive(true);
 	}
 
 	public void CallDialogue(ScriptableDialog dialog, PlayMakerFSM fsm) {
