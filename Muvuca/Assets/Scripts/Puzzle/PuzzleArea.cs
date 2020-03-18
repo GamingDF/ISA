@@ -31,8 +31,53 @@ public class PuzzleArea : MonoBehaviour
     }
 
     private void Start() {
-        //Mapa teste
+        string temp = PuzzleLoader.Instance.LoadedPuzzle.Replace(System.Environment.NewLine, "");
+        Debug.Log(temp);
+
         for(int i = 0; i < gridSize; i++) {
+            for (int j = 0; j < gridSize; j++) {
+                switch(temp[(j * gridSize) + i]) {
+                    case 'A':
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.AV);
+                        break;
+                    case 'P':
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.P);
+                        break;
+                    case 'S':
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.S);
+                        break;
+                    case '0'://Climax AV
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.AV });
+                        break;
+                    case '1'://Climax P
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.P });
+                        break;
+                    case '2'://Climax S
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.S });
+                        break;
+                    case '3'://Climax AV, P
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.AV, PuzzleCell.PlantType.P });
+                        break;
+                    case '4'://Climax AV, S
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.AV, PuzzleCell.PlantType.S });
+                        break;
+                    case '5'://Climax P, S
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.S, PuzzleCell.PlantType.P });
+                        break;
+                    case '6'://Climax AV, P, S
+                        CreatePlant(new Vector2Int(i, j), PuzzleCell.PlantType.C, new PuzzleCell.PlantType[] { PuzzleCell.PlantType.AV, PuzzleCell.PlantType.P, PuzzleCell.PlantType.S });
+                        break;
+                    case 'X':
+                        cells[i][j].isObstacle = true;
+                        cells[i][j].obstacleSprite = obstacleSprites[0];
+                        map.CallInstantiate(PuzzleCell.PlantType.None, i, j, true);
+                        break;
+                }
+            }
+        }
+
+        //Mapa teste
+        /*for(int i = 0; i < gridSize; i++) {
             cells[i][0].isObstacle = true;
             cells[i][0].obstacleSprite = obstacleSprites[0];
             map.CallInstantiate(PuzzleCell.PlantType.None, i, 0, true);
@@ -40,7 +85,7 @@ public class PuzzleArea : MonoBehaviour
 
         for(int i = 0; i < gridSize; i++) {
             cells[gridSize - 1][i].isObstacle = true;
-            cells[gridSize - 1][i].obstacleSprite = obstacleSprites[1];
+            cells[gridSize - 1][i].obstacleSprite = obstacleSprites[0];
             map.CallInstantiate(PuzzleCell.PlantType.None, gridSize - 1, i, true);
         }
 
@@ -58,7 +103,7 @@ public class PuzzleArea : MonoBehaviour
         CreatePlant(new Vector2Int(4, 4), PuzzleCell.PlantType.AV);
 
         CreatePlant(new Vector2Int(3, 7), PuzzleCell.PlantType.S);
-        CreatePlant(new Vector2Int(6, 1), PuzzleCell.PlantType.S);
+        CreatePlant(new Vector2Int(6, 1), PuzzleCell.PlantType.S);*/
     }
 
     // Update is called once per frame
