@@ -1,0 +1,8 @@
+XXXXXXXX
+1     SX
+ P  A 4X
+    A  X
+    A3 X
+ P   P X
+       X
+A  S   X
