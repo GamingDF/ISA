@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1646005877a16ca40afe5a878720a7b0, type: 3}
-  m_Name: Pao6
+  m_Name: FornecePao
   m_EditorClassIdentifier: 
   dialog:
   - text:
-    - "Volte sempre que precisar de mais p\xE3es."
+    - "Opa! Voc\xEA quer p\xE3o? T\xE1 na m\xE3o!"
+    - "Voc\xEA adquiriu 1x P\xE3o."

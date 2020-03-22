@@ -10,12 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1646005877a16ca40afe5a878720a7b0, type: 3}
-  m_Name: PensamentosYasmin
+  m_Name: VolteSempre
   m_EditorClassIdentifier: 
   dialog:
   - text:
-    - "[fTesteYasmin] [nYasmin] A cidade da minha inf\xE2ncia...Incr\xEDvel como
-      ela continua a mesma...mas de certa forma muita coisa mudou. "
-    - "Como estar\xE1 a casa da minha vozinha? Estou muito ansiosa para comer aquele
-      bolo de jabuticaba que s\xF3 ela sabe fazer\u2026"
-    - "Ah! Finalmente cheguei...e daqui j\xE1 consigo ver a casa. "
+    - "Volte sempre que precisar de mais p\xE3es."

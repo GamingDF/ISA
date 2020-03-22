@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1646005877a16ca40afe5a878720a7b0, type: 3}
-  m_Name: Dialog
+  m_Name: Apresentacao
   m_EditorClassIdentifier: 
   dialog:
   - text:
-    - '[fTesteYasmin]Tudo bem?'
-    - '[fteste]Tudo sim.'
+    - "Bom dia! Eu vendo p\xE3o."

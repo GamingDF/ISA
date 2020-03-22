@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1646005877a16ca40afe5a878720a7b0, type: 3}
-  m_Name: Pao4
+  m_Name: exemplo1
   m_EditorClassIdentifier: 
   dialog:
   - text:
-    - "Bom dia! Eu vendo p\xE3o."
+    - Oi, vamos conversar :D?
+    - Claro, vamos sim :P!
