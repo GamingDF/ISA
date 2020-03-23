@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Testes/TransicaoCena1.unity
+    path: Assets/Scenes/Exemples/Transicao-Cena1.unity
     guid: a4ecf0d0176c17241b87ee071aafe34b
   - enabled: 1
-    path: Assets/Scenes/Testes/TransicaoCena2.unity
+    path: Assets/Scenes/Exemples/Transicao-Cena2.unity
     guid: 061a52227cc61fd4aaeedcce9fb103ce
   m_configObjects: {}
