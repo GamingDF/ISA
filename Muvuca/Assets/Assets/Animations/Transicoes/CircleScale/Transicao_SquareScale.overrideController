@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Transicao_SquareScale
+  m_Controller: {fileID: 9100000, guid: 8338c9c2cecb49e4b84964d32ae764ed, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 020eada6342fae349845d2ad3d2e12d3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2beeb14750f53d34aa6bf24cebefc60e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bbda4eb317e624b43958d6f1543d850c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: abf904c950a53324cae0e821cb13fa40, type: 2}
