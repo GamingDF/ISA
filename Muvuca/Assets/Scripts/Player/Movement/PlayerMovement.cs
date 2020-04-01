@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using System;
 
 public class PlayerMovement : MonoBehaviour {
@@ -21,34 +22,46 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void Update() {
-		if (TapInput.Instance.IsSingle) {
-			PathRequestManager.instance.RequestPath(transform.position, TapInput.Instance.WorldPosition, _grid, _pathfindingCallback);
-		}
+		if (!_freeze) {
+			if (TapInput.Instance.IsSingle) {
+				PathRequestManager.instance.RequestPath(transform.position, TapInput.Instance.WorldPosition, _grid, _pathfindingCallback);
+			}
 
-		_input = AnalogInput.Instance.Axis;
-		if (AnalogInput.Instance.Deactivated) {
-			_stop = true;
+			_input = AnalogInput.Instance.Axis;
+			if (AnalogInput.Instance.Deactivated) {
+				_stop = true;
+			}
 		}
 	}
 
-	void FixedUpdate() {
+	public void MoveToPosition(GameObject target, Action<bool> callback) {
 		if (!_freeze) {
-			if (AnalogInput.Instance.IsActive) {
-				_rb.velocity = _input * _speed;
-			}
-			else if (_doPath) {
-				float epsilon = _speed * Time.fixedDeltaTime;
-				if ((transform.position - _path[_i]).magnitude < epsilon) {
-					_i++;
-				}
+			PathRequestManager.instance.RequestPath(transform.position, target.transform.position, _grid, _pathfindingCallback);
+			_pathTarget = target;
+			_targetCallback = callback;
+		}
+	}
 
-				if (_i >= _path.Length) {
-					_stop = true;
-				}
-				else {
-					Vector3 target = _path[_i] - transform.position;
-					_rb.velocity = target.normalized * _speed;
-				}
+	public void MoveToPosition(Vector3 target) {
+		PathRequestManager.instance.RequestPath(transform.position, target, _grid, _pathfindingCallback);
+	}
+
+	void FixedUpdate() {
+		if (AnalogInput.Instance.IsActive && !_freeze) {
+			_rb.velocity = _input * _speed;
+		}
+		else if (_doPath) {
+			float epsilon = _speed * Time.fixedDeltaTime;
+			if ((transform.position - _path[_i]).magnitude < epsilon) {
+				_i++;
+			}
+
+			if (_i >= _path.Length) {
+				_stop = true;
+			}
+			else {
+				Vector3 target = _path[_i] - transform.position;
+				_rb.velocity = target.normalized * _speed;
 			}
 		}
 
@@ -76,19 +89,19 @@ public class PlayerMovement : MonoBehaviour {
 		}
 	}
 
-	public void MoveToPosition(GameObject target, Action<bool> callback) {
-		PathRequestManager.instance.RequestPath(transform.position, target.transform.position, _grid, _pathfindingCallback);
-		_pathTarget = target;
-		_targetCallback = callback;
-	}
-
 	public void FreezeMovement() {
-		_freeze = true;
+		StartCoroutine(SetFreeze(true));
 		_stop = true;
 	}
 
 	public void UnfreezeMovement() {
-		_freeze = false;
+		StartCoroutine(SetFreeze(false));
+	}
+
+	IEnumerator SetFreeze(bool value) {
+		yield return null;
+		_freeze = value;
+		yield break;
 	}
 
 	void OnCollisionEnter2D(Collision2D other) {
