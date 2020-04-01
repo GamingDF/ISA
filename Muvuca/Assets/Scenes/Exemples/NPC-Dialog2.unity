@@ -1607,6 +1607,9 @@ GameObject:
   - component: {fileID: 394746294}
   - component: {fileID: 394746297}
   - component: {fileID: 394746298}
+  - component: {fileID: 394746301}
+  - component: {fileID: 394746300}
+  - component: {fileID: 394746299}
   m_Layer: 0
   m_Name: Caveira
   m_TagString: Untagged
@@ -1699,7 +1702,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394746293}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.53, y: -0.35, z: 0}
+  m_LocalPosition: {x: 4.5, y: -0.35, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1834,8 +1837,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 60.898438
-        y: 177.17188
+        x: 70.89844
+        y: 207.17188
         width: 148
         height: 32
       isBreakpoint: 0
@@ -1856,15 +1859,17 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.CallMethod
         - HutongGames.PlayMaker.Actions.CallMethod
         - HutongGames.PlayMaker.Actions.CallMethod
+        - HutongGames.PlayMaker.Actions.CallMethod
         customNames:
         - 
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 00000000
-        actionStartIndex: 00000000060000000e00000014000000
-        actionHashCodes: ca51e900ca51e900ca51e900ca51e900
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0000000000
+        actionStartIndex: 00000000060000000e000000140000001b000000
+        actionHashCodes: ca51e900ca51e900ca51e900ca51e900ca51e900
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -1893,6 +1898,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: ResetCondition
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: MoveToPosition
         - useVariable: 0
           name: 
           tooltip: 
@@ -1928,6 +1939,13 @@ MonoBehaviour:
           networkSync: 0
           typeName: PlayerMovement
           value: {fileID: 2010794954}
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: NPCMovement
+          value: {fileID: 394746299}
         fsmVarParams:
         - variableName: 
           objectType: 
@@ -2098,6 +2116,54 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
+        - variableName: 
+          objectType: UnityEngine.Object
+          useVariable: 0
+          type: 6
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 4.5, y: 3, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: 
+          objectType: 
+          useVariable: 0
+          type: -1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
@@ -2109,16 +2175,17 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0000000000000000
-        arrayParamSizes: 00000000020000000000000001000000
+        byteData: 00000000000000000000
+        arrayParamSizes: 0000000002000000000000000100000001000000
         arrayParamTypes:
+        - HutongGames.PlayMaker.FsmVar
         - HutongGames.PlayMaker.FsmVar
         - HutongGames.PlayMaker.FsmVar
         - HutongGames.PlayMaker.FsmVar
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 18000000120000000c00000027000000010000000100000018000000120000000c000000270000002700000027000000010000000100000018000000120000000c00000027000000010000000100000018000000120000000c00000027000000270000000100000001000000
+        paramDataType: 18000000120000000c00000027000000010000000100000018000000120000000c000000270000002700000027000000010000000100000018000000120000000c00000027000000010000000100000018000000120000000c0000002700000027000000010000000100000018000000120000000c00000027000000270000000100000001000000
         paramName:
         - behaviour
         - methodName
@@ -2147,8 +2214,15 @@ MonoBehaviour:
         - storeResult
         - everyFrame
         - manualUI
-        paramDataPos: 000000000000000000000000000000000000000001000000010000000100000001000000010000000200000003000000020000000300000002000000020000000200000004000000040000000500000003000000030000000300000005000000060000000600000007000000
-        paramByteDataSize: 000000000000000000000000000000000100000001000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000000000000010000000100000000000000000000000000000000000000000000000100000001000000
+        - behaviour
+        - methodName
+        - parameters
+        - 
+        - storeResult
+        - everyFrame
+        - manualUI
+        paramDataPos: 00000000000000000000000000000000000000000100000001000000010000000100000001000000020000000300000002000000030000000200000002000000020000000400000004000000050000000300000003000000030000000500000006000000060000000700000004000000040000000400000007000000080000000800000009000000
+        paramByteDataSize: 00000000000000000000000000000000010000000100000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000000000001000000010000000000000000000000000000000000000000000000010000000100000000000000000000000000000000000000000000000100000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2247,6 +2321,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c70205771da17864b9507b6d8b71a700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &394746299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394746293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cfeb78791999b4193724d64d1d71a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _grid: {fileID: 394746301}
+  _rb: {fileID: 394746300}
+  _speed: 3
+--- !u!50 &394746300
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394746293}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &394746301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394746293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13cec841e7dee1a4e93a99526e957ff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unwalkableMask:
+    serializedVersion: 2
+    m_Bits: 256
+  displayGridGizmos: 1
+  gridWorldSize: {x: 14, y: 8}
+  nodeRadius: 0.125
+  pathS:
+  - {x: 0.375, y: 0.375, z: 0}
+  - {x: 1.375, y: 0.625, z: 0}
+  - {x: 1.625, y: 0.625, z: 0}
 --- !u!1 &1125325951
 GameObject:
   m_ObjectHideFlags: 0
