@@ -9,7 +9,10 @@ public class PuzzleLoader : MonoBehaviour
 
     public string LoadedPuzzle { get; private set; }
 
-    public void Awake() {
+    private SceneHandler _sceneHandler = null;
+    [SerializeField] GameObject _transition = null;
+
+    private void Awake() {
         if(Instance  != null) {
             Destroy(gameObject);
         }
@@ -17,8 +20,14 @@ public class PuzzleLoader : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
+        _sceneHandler = FindObjectOfType<SceneHandler>() ? FindObjectOfType<SceneHandler>().GetComponent<SceneHandler>() : null;
+    }
+
+    private void Update() {
         //Teste
-        LoadPuzzleByName("teste");
+        if (Input.GetKeyDown(KeyCode.Return)) {
+            LoadPuzzleByName("teste");
+        }
     }
 
     public void LoadPuzzleByName(string puzzleName) {
@@ -34,7 +43,11 @@ public class PuzzleLoader : MonoBehaviour
         //Troca para a cena do Puzzle, construindo ela com base nos parâmetros
         //presentes na string LoadedPuzzle
 
-        //Provisório, deve ser integrado ao sistema de transições de cena
-        //SceneManager.LoadScene("Puzzle");
+        if (!_sceneHandler) {
+            Debug.LogError("No SceneHandler in the scene!");
+        }
+        else {
+            _sceneHandler.LoadScene("Puzzle", _transition);
+        }
     }
 }

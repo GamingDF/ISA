@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Exemples/Transicao-Cena2.unity
     guid: 061a52227cc61fd4aaeedcce9fb103ce
+  - enabled: 1
+    path: Assets/Scenes/Testes/PrePuzzleScene.unity
+    guid: f3e2863d7ccf31a49b3d07a82f8007e8
+  - enabled: 1
+    path: Assets/Scenes/Testes/Puzzle.unity
+    guid: 55d72d47feceeb742b2c67f6bbccf72e
   m_configObjects: {}
