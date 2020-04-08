@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f0dd7445496273a4bae063ec2792bf27
+=======
+guid: 221286bbbf8963342bb6d4d9860c6b02
+>>>>>>> reorganização-blue
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
