@@ -7,16 +7,16 @@ public class PuzzleArea : MonoBehaviour
 {
     [Tooltip("Altura e largura da grid")]
     [SerializeField]
-    private int gridSize;
+    private int gridSize = 0;
 
     [SerializeField]
-    private Sprite[] obstacleSprites;
+    private Sprite[] obstacleSprites = null;
 
-    public List<List<PuzzleCell>> cells;
+    public List<List<PuzzleCell>> cells = null;
 
-    private Tilemap tilemap;
-    private Grid g;
-    private MapController map;
+    private Tilemap tilemap = null;
+    private Grid g = null;
+    private MapController map = null;
 
     private void Awake() {
         g = GetComponentInChildren<Grid>();
@@ -225,14 +225,10 @@ public class PuzzleArea : MonoBehaviour
 
         //Secundária
         if (p == PuzzleCell.PlantType.S) {
-            bool triggerX = false;
-            bool triggerY = false;
             int startX = 0;
             int startY = 0;
             int stopOnX = gridSize - 1;
             int stopOnY = gridSize - 1;
-
-            int w = 0;
 
             for(int i = 0; i < pos.x; i++) {
                 if (cells[i][pos.y].isObstacle) {

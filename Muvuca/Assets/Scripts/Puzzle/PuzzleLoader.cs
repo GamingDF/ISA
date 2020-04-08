@@ -25,9 +25,9 @@ public class PuzzleLoader : MonoBehaviour
 
     private void Update() {
         //Teste
-        if (Input.GetKeyDown(KeyCode.Return)) {
+        /*if (Input.GetKeyDown(KeyCode.Return)) {
             LoadPuzzleByName("teste");
-        }
+        }*/
     }
 
     public void LoadPuzzleByName(string puzzleName) {
