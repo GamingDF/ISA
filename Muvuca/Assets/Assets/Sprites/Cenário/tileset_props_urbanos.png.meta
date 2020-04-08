@@ -1,0 +1,7399 @@
+fileFormatVersion: 2
+guid: 971f23ae23474c4458194ab7107350bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7366720988229369729
+    second: tileset_props_urbanos_0
+  - first:
+      213: 968666613055329728
+    second: tileset_props_urbanos_1
+  - first:
+      213: 7457868199988597215
+    second: tileset_props_urbanos_2
+  - first:
+      213: 1445497449813516156
+    second: tileset_props_urbanos_3
+  - first:
+      213: -707693486583214085
+    second: tileset_props_urbanos_4
+  - first:
+      213: 8018052791597987219
+    second: tileset_props_urbanos_5
+  - first:
+      213: 2637140727606993214
+    second: tileset_props_urbanos_6
+  - first:
+      213: 6780427716490605178
+    second: tileset_props_urbanos_7
+  - first:
+      213: -4948923745442461888
+    second: tileset_props_urbanos_8
+  - first:
+      213: 8493068440074016119
+    second: tileset_props_urbanos_9
+  - first:
+      213: -3539764577382662258
+    second: tileset_props_urbanos_10
+  - first:
+      213: 5787655621543454627
+    second: tileset_props_urbanos_11
+  - first:
+      213: 6886465264907835819
+    second: tileset_props_urbanos_12
+  - first:
+      213: -7900164885085402234
+    second: tileset_props_urbanos_13
+  - first:
+      213: -8121214056790717077
+    second: tileset_props_urbanos_14
+  - first:
+      213: 849055074924380792
+    second: tileset_props_urbanos_15
+  - first:
+      213: -3503413066713223224
+    second: tileset_props_urbanos_16
+  - first:
+      213: 891831935776105773
+    second: tileset_props_urbanos_17
+  - first:
+      213: -6631882341002459909
+    second: tileset_props_urbanos_18
+  - first:
+      213: -8022649850919838665
+    second: tileset_props_urbanos_19
+  - first:
+      213: -192249046353778163
+    second: tileset_props_urbanos_20
+  - first:
+      213: 5723526820089897722
+    second: tileset_props_urbanos_21
+  - first:
+      213: -6082493489140858154
+    second: tileset_props_urbanos_22
+  - first:
+      213: 7615130868372627709
+    second: tileset_props_urbanos_23
+  - first:
+      213: -4695933664511250839
+    second: tileset_props_urbanos_24
+  - first:
+      213: 8162664598261394199
+    second: tileset_props_urbanos_25
+  - first:
+      213: 8361464194709720446
+    second: tileset_props_urbanos_26
+  - first:
+      213: -4319128872229554013
+    second: tileset_props_urbanos_27
+  - first:
+      213: 5902348089108039951
+    second: tileset_props_urbanos_28
+  - first:
+      213: 5723474093667435014
+    second: tileset_props_urbanos_29
+  - first:
+      213: -1981378981502605609
+    second: tileset_props_urbanos_30
+  - first:
+      213: 2948424084252611198
+    second: tileset_props_urbanos_31
+  - first:
+      213: -5768310013391998692
+    second: tileset_props_urbanos_32
+  - first:
+      213: 5521398641527522762
+    second: tileset_props_urbanos_33
+  - first:
+      213: -8793165030539995446
+    second: tileset_props_urbanos_34
+  - first:
+      213: -610708331673453253
+    second: tileset_props_urbanos_35
+  - first:
+      213: -4922149654763950564
+    second: tileset_props_urbanos_36
+  - first:
+      213: -3996445768229539038
+    second: tileset_props_urbanos_37
+  - first:
+      213: -7443036020773301184
+    second: tileset_props_urbanos_38
+  - first:
+      213: -2099221539255556888
+    second: tileset_props_urbanos_39
+  - first:
+      213: 6847040612821591554
+    second: tileset_props_urbanos_40
+  - first:
+      213: -5439445059640856655
+    second: tileset_props_urbanos_41
+  - first:
+      213: -7334473885998845635
+    second: tileset_props_urbanos_42
+  - first:
+      213: -8223062399064255020
+    second: tileset_props_urbanos_43
+  - first:
+      213: -1051474086963813628
+    second: tileset_props_urbanos_44
+  - first:
+      213: -3279409180439117856
+    second: tileset_props_urbanos_45
+  - first:
+      213: 4854454665597918740
+    second: tileset_props_urbanos_46
+  - first:
+      213: 5013803122468315379
+    second: tileset_props_urbanos_47
+  - first:
+      213: 4243370955401229004
+    second: tileset_props_urbanos_48
+  - first:
+      213: 8314971129352821568
+    second: tileset_props_urbanos_49
+  - first:
+      213: -6903200610877044578
+    second: tileset_props_urbanos_50
+  - first:
+      213: -5969859741082006983
+    second: tileset_props_urbanos_51
+  - first:
+      213: 2058300942280113234
+    second: tileset_props_urbanos_52
+  - first:
+      213: -1717544894599853998
+    second: tileset_props_urbanos_53
+  - first:
+      213: -4324176267564610120
+    second: tileset_props_urbanos_54
+  - first:
+      213: -7383595583161588880
+    second: tileset_props_urbanos_55
+  - first:
+      213: -1031721949062101462
+    second: tileset_props_urbanos_56
+  - first:
+      213: 4415011450926241279
+    second: tileset_props_urbanos_57
+  - first:
+      213: 8126778067179870526
+    second: tileset_props_urbanos_58
+  - first:
+      213: 7570653871519469810
+    second: tileset_props_urbanos_59
+  - first:
+      213: 4148168437839720282
+    second: tileset_props_urbanos_60
+  - first:
+      213: -4685312079457708962
+    second: tileset_props_urbanos_61
+  - first:
+      213: -414169879218579616
+    second: tileset_props_urbanos_62
+  - first:
+      213: 1914749904451056141
+    second: tileset_props_urbanos_63
+  - first:
+      213: -3177896105897520452
+    second: tileset_props_urbanos_64
+  - first:
+      213: 691052714844356342
+    second: tileset_props_urbanos_65
+  - first:
+      213: -6458177534355128471
+    second: tileset_props_urbanos_66
+  - first:
+      213: -8198711120997793695
+    second: tileset_props_urbanos_67
+  - first:
+      213: -7166916564292394931
+    second: tileset_props_urbanos_68
+  - first:
+      213: -7614974035210839723
+    second: tileset_props_urbanos_69
+  - first:
+      213: 5132392678687607304
+    second: tileset_props_urbanos_70
+  - first:
+      213: 3664004453517924860
+    second: tileset_props_urbanos_71
+  - first:
+      213: 2311567904405579348
+    second: tileset_props_urbanos_72
+  - first:
+      213: 3418297704211445577
+    second: tileset_props_urbanos_73
+  - first:
+      213: -6289194315527912569
+    second: tileset_props_urbanos_74
+  - first:
+      213: 1335698435292545650
+    second: tileset_props_urbanos_75
+  - first:
+      213: 6735475187632669158
+    second: tileset_props_urbanos_76
+  - first:
+      213: -6265470906299011698
+    second: tileset_props_urbanos_77
+  - first:
+      213: 1745703934310317325
+    second: tileset_props_urbanos_78
+  - first:
+      213: 3288692093080012315
+    second: tileset_props_urbanos_79
+  - first:
+      213: -5012470733091409953
+    second: tileset_props_urbanos_80
+  - first:
+      213: 8631148650991653434
+    second: tileset_props_urbanos_81
+  - first:
+      213: 684775993761858595
+    second: tileset_props_urbanos_82
+  - first:
+      213: -9017585865102056267
+    second: tileset_props_urbanos_83
+  - first:
+      213: -6511068198921697562
+    second: tileset_props_urbanos_84
+  - first:
+      213: 1902625275557498444
+    second: tileset_props_urbanos_85
+  - first:
+      213: 8073202701656134444
+    second: tileset_props_urbanos_86
+  - first:
+      213: 7496726458595150127
+    second: tileset_props_urbanos_87
+  - first:
+      213: 621694014888561115
+    second: tileset_props_urbanos_88
+  - first:
+      213: 199329357260339849
+    second: tileset_props_urbanos_89
+  - first:
+      213: 7047395915030513554
+    second: tileset_props_urbanos_90
+  - first:
+      213: -8101457486872956689
+    second: tileset_props_urbanos_91
+  - first:
+      213: 5885022999898033118
+    second: tileset_props_urbanos_92
+  - first:
+      213: 8878189655758110827
+    second: tileset_props_urbanos_93
+  - first:
+      213: -2127088185118182420
+    second: tileset_props_urbanos_94
+  - first:
+      213: 5584197938699551882
+    second: tileset_props_urbanos_95
+  - first:
+      213: -7738293767273992014
+    second: tileset_props_urbanos_96
+  - first:
+      213: -1983859083896303686
+    second: tileset_props_urbanos_97
+  - first:
+      213: -680348857812523638
+    second: tileset_props_urbanos_98
+  - first:
+      213: 3030302036245246153
+    second: tileset_props_urbanos_99
+  - first:
+      213: -6905194193753147623
+    second: tileset_props_urbanos_100
+  - first:
+      213: 4521652367096848886
+    second: tileset_props_urbanos_101
+  - first:
+      213: 82743913331848483
+    second: tileset_props_urbanos_102
+  - first:
+      213: -2440335370839794241
+    second: tileset_props_urbanos_103
+  - first:
+      213: 8159670042380520610
+    second: tileset_props_urbanos_104
+  - first:
+      213: -1550598397108531309
+    second: tileset_props_urbanos_105
+  - first:
+      213: 5451714172913242463
+    second: tileset_props_urbanos_106
+  - first:
+      213: -6373216974887657925
+    second: tileset_props_urbanos_107
+  - first:
+      213: -1528467977443770628
+    second: tileset_props_urbanos_108
+  - first:
+      213: -5365952975805973186
+    second: tileset_props_urbanos_109
+  - first:
+      213: -5029464335629683636
+    second: tileset_props_urbanos_110
+  - first:
+      213: 542185549260367263
+    second: tileset_props_urbanos_111
+  - first:
+      213: -903907637839941387
+    second: tileset_props_urbanos_112
+  - first:
+      213: -5228890744605561328
+    second: tileset_props_urbanos_113
+  - first:
+      213: -5406788689183884880
+    second: tileset_props_urbanos_114
+  - first:
+      213: -527795748406375093
+    second: tileset_props_urbanos_115
+  - first:
+      213: -7554057751725378495
+    second: tileset_props_urbanos_116
+  - first:
+      213: 729449237548081246
+    second: tileset_props_urbanos_117
+  - first:
+      213: 2168710811141209540
+    second: tileset_props_urbanos_118
+  - first:
+      213: 4735081811043392474
+    second: tileset_props_urbanos_119
+  - first:
+      213: 9001066744778260116
+    second: tileset_props_urbanos_120
+  - first:
+      213: 7382466831034180247
+    second: tileset_props_urbanos_121
+  - first:
+      213: 3128878705125551866
+    second: tileset_props_urbanos_122
+  - first:
+      213: 6556607998853529445
+    second: tileset_props_urbanos_123
+  - first:
+      213: -6377548123181748818
+    second: tileset_props_urbanos_124
+  - first:
+      213: 3268242089116280678
+    second: tileset_props_urbanos_125
+  - first:
+      213: -7354713120490906033
+    second: tileset_props_urbanos_126
+  - first:
+      213: 8373577373084524488
+    second: tileset_props_urbanos_127
+  - first:
+      213: -8479959067735531930
+    second: tileset_props_urbanos_128
+  - first:
+      213: -2369987811828829248
+    second: tileset_props_urbanos_129
+  - first:
+      213: -6950425631329661604
+    second: tileset_props_urbanos_130
+  - first:
+      213: 1668629368913280093
+    second: tileset_props_urbanos_131
+  - first:
+      213: 3533268698776837610
+    second: tileset_props_urbanos_132
+  - first:
+      213: -8279086525573679336
+    second: tileset_props_urbanos_133
+  - first:
+      213: -3858207754662280980
+    second: tileset_props_urbanos_134
+  - first:
+      213: -996748617346320585
+    second: tileset_props_urbanos_135
+  - first:
+      213: 3682104131207373153
+    second: tileset_props_urbanos_136
+  - first:
+      213: -9213762677899644845
+    second: tileset_props_urbanos_137
+  - first:
+      213: -8532219404441405865
+    second: tileset_props_urbanos_138
+  - first:
+      213: -9024160695849440262
+    second: tileset_props_urbanos_139
+  - first:
+      213: -2308284063643851236
+    second: tileset_props_urbanos_140
+  - first:
+      213: -6643662160947654466
+    second: tileset_props_urbanos_141
+  - first:
+      213: 8530606713022930427
+    second: tileset_props_urbanos_142
+  - first:
+      213: 5333505088388890049
+    second: tileset_props_urbanos_143
+  - first:
+      213: -2315436362075571542
+    second: tileset_props_urbanos_144
+  - first:
+      213: 6646003736906624153
+    second: tileset_props_urbanos_145
+  - first:
+      213: -737893953115608683
+    second: tileset_props_urbanos_146
+  - first:
+      213: 4656912892475903892
+    second: tileset_props_urbanos_147
+  - first:
+      213: 5782651856887953927
+    second: tileset_props_urbanos_148
+  - first:
+      213: -5618268239355752710
+    second: tileset_props_urbanos_149
+  - first:
+      213: 7260013029443233495
+    second: tileset_props_urbanos_150
+  - first:
+      213: 7565476873834600683
+    second: tileset_props_urbanos_151
+  - first:
+      213: 8269211097591763551
+    second: tileset_props_urbanos_152
+  - first:
+      213: -8228549300639264214
+    second: tileset_props_urbanos_153
+  - first:
+      213: 1250756131491900561
+    second: tileset_props_urbanos_154
+  - first:
+      213: 6336112459805340388
+    second: tileset_props_urbanos_155
+  - first:
+      213: 3646681655780908126
+    second: tileset_props_urbanos_156
+  - first:
+      213: -2180765101934414164
+    second: tileset_props_urbanos_157
+  - first:
+      213: 8712613917838604190
+    second: tileset_props_urbanos_158
+  - first:
+      213: 347818061109452620
+    second: tileset_props_urbanos_159
+  - first:
+      213: 2061069970009932264
+    second: tileset_props_urbanos_160
+  - first:
+      213: -7827632611871707913
+    second: tileset_props_urbanos_161
+  - first:
+      213: 2495693134326160575
+    second: tileset_props_urbanos_162
+  - first:
+      213: -4155087618483382041
+    second: tileset_props_urbanos_163
+  - first:
+      213: -4514074945575622901
+    second: tileset_props_urbanos_164
+  - first:
+      213: -9047232183022656169
+    second: tileset_props_urbanos_165
+  - first:
+      213: 1298116398292213567
+    second: tileset_props_urbanos_166
+  - first:
+      213: 7923726833556825775
+    second: tileset_props_urbanos_167
+  - first:
+      213: 2286461157368470049
+    second: tileset_props_urbanos_168
+  - first:
+      213: -6342688925714746762
+    second: tileset_props_urbanos_169
+  - first:
+      213: 5326608594188899242
+    second: tileset_props_urbanos_170
+  - first:
+      213: 316668239715290916
+    second: tileset_props_urbanos_171
+  - first:
+      213: -6477816575343812822
+    second: tileset_props_urbanos_172
+  - first:
+      213: -6777549003153827519
+    second: tileset_props_urbanos_173
+  - first:
+      213: 6009933942564329676
+    second: tileset_props_urbanos_174
+  - first:
+      213: -1908585799763125758
+    second: tileset_props_urbanos_175
+  - first:
+      213: 6035406214025127274
+    second: tileset_props_urbanos_176
+  - first:
+      213: 5344201245580775542
+    second: tileset_props_urbanos_177
+  - first:
+      213: 7276523823433174154
+    second: tileset_props_urbanos_178
+  - first:
+      213: 658821445122045899
+    second: tileset_props_urbanos_179
+  - first:
+      213: 596575042046647071
+    second: tileset_props_urbanos_180
+  - first:
+      213: -4918440539416652277
+    second: tileset_props_urbanos_181
+  - first:
+      213: -4921595479591177758
+    second: tileset_props_urbanos_182
+  - first:
+      213: -8770550479110992836
+    second: tileset_props_urbanos_183
+  - first:
+      213: -3088943289750294827
+    second: tileset_props_urbanos_184
+  - first:
+      213: -3527372575339213078
+    second: tileset_props_urbanos_185
+  - first:
+      213: -250420171103300468
+    second: tileset_props_urbanos_186
+  - first:
+      213: -1279074540982714819
+    second: tileset_props_urbanos_187
+  - first:
+      213: -2263912527388536123
+    second: tileset_props_urbanos_188
+  - first:
+      213: -1391139272958525639
+    second: tileset_props_urbanos_189
+  - first:
+      213: 9101380416849324879
+    second: tileset_props_urbanos_190
+  - first:
+      213: -8361399159758037568
+    second: tileset_props_urbanos_191
+  - first:
+      213: -5921135852741443678
+    second: tileset_props_urbanos_192
+  - first:
+      213: -3268984848711163229
+    second: tileset_props_urbanos_193
+  - first:
+      213: 4551331943944106328
+    second: tileset_props_urbanos_194
+  - first:
+      213: -6269812618793151699
+    second: tileset_props_urbanos_195
+  - first:
+      213: -5888083162533653453
+    second: tileset_props_urbanos_196
+  - first:
+      213: 5636483541403178946
+    second: tileset_props_urbanos_197
+  - first:
+      213: -7652857081539986166
+    second: tileset_props_urbanos_198
+  - first:
+      213: -7934424689864990253
+    second: tileset_props_urbanos_199
+  - first:
+      213: 6181078354571614144
+    second: tileset_props_urbanos_200
+  - first:
+      213: 3147636998991934819
+    second: tileset_props_urbanos_201
+  - first:
+      213: -928141546206976874
+    second: tileset_props_urbanos_202
+  - first:
+      213: 7311045718182178122
+    second: tileset_props_urbanos_203
+  - first:
+      213: 4965232010781024183
+    second: tileset_props_urbanos_204
+  - first:
+      213: 993471723619776799
+    second: tileset_props_urbanos_205
+  - first:
+      213: 6024560958587031943
+    second: tileset_props_urbanos_206
+  - first:
+      213: -9106949389711627451
+    second: tileset_props_urbanos_207
+  - first:
+      213: 6621398659990856893
+    second: tileset_props_urbanos_208
+  - first:
+      213: -4920822220486200601
+    second: tileset_props_urbanos_209
+  - first:
+      213: -7876389240701197032
+    second: tileset_props_urbanos_210
+  - first:
+      213: -3778563191466811340
+    second: tileset_props_urbanos_211
+  - first:
+      213: -4903837358168579769
+    second: tileset_props_urbanos_212
+  - first:
+      213: -3743337361678754519
+    second: tileset_props_urbanos_213
+  - first:
+      213: -7960549551944361565
+    second: tileset_props_urbanos_214
+  - first:
+      213: -2104380083222915628
+    second: tileset_props_urbanos_215
+  - first:
+      213: -2491279276567500958
+    second: tileset_props_urbanos_216
+  - first:
+      213: 2878508545577076243
+    second: tileset_props_urbanos_217
+  - first:
+      213: -1097794268524324904
+    second: tileset_props_urbanos_218
+  - first:
+      213: 6485892805082950839
+    second: tileset_props_urbanos_219
+  - first:
+      213: -6999182692222059331
+    second: tileset_props_urbanos_220
+  - first:
+      213: -2207591498281440564
+    second: tileset_props_urbanos_221
+  - first:
+      213: 202678491817023629
+    second: tileset_props_urbanos_222
+  - first:
+      213: -2168196596618971066
+    second: tileset_props_urbanos_223
+  - first:
+      213: -7510794950888544254
+    second: tileset_props_urbanos_224
+  - first:
+      213: -7914221461208046709
+    second: tileset_props_urbanos_225
+  - first:
+      213: 8424616643127954014
+    second: tileset_props_urbanos_226
+  - first:
+      213: -481229660973316247
+    second: tileset_props_urbanos_227
+  - first:
+      213: 9107812622676233207
+    second: tileset_props_urbanos_228
+  - first:
+      213: 8021330344105122542
+    second: tileset_props_urbanos_229
+  - first:
+      213: 2726085497279904311
+    second: tileset_props_urbanos_230
+  - first:
+      213: 5934157529094818790
+    second: tileset_props_urbanos_231
+  - first:
+      213: -8641748742664704666
+    second: tileset_props_urbanos_232
+  - first:
+      213: -3547902388056400119
+    second: tileset_props_urbanos_233
+  - first:
+      213: 8505095600615544292
+    second: tileset_props_urbanos_234
+  - first:
+      213: -7978797109502278680
+    second: tileset_props_urbanos_235
+  - first:
+      213: 4200052288217856329
+    second: tileset_props_urbanos_236
+  - first:
+      213: -8317115942023839407
+    second: tileset_props_urbanos_237
+  - first:
+      213: -6450754826576765532
+    second: tileset_props_urbanos_238
+  - first:
+      213: -9154733161577419499
+    second: tileset_props_urbanos_239
+  - first:
+      213: 677413601584541367
+    second: tileset_props_urbanos_240
+  - first:
+      213: -5735080092309724988
+    second: tileset_props_urbanos_241
+  - first:
+      213: 1545995482647282285
+    second: tileset_props_urbanos_242
+  - first:
+      213: 5074373002653924348
+    second: tileset_props_urbanos_243
+  - first:
+      213: -8927410849395140814
+    second: tileset_props_urbanos_244
+  - first:
+      213: 1452690438551138177
+    second: tileset_props_urbanos_245
+  - first:
+      213: 2861948417925667567
+    second: tileset_props_urbanos_246
+  - first:
+      213: -4679153686872030635
+    second: tileset_props_urbanos_247
+  - first:
+      213: 5416850678403894128
+    second: tileset_props_urbanos_248
+  - first:
+      213: -374958531198351633
+    second: tileset_props_urbanos_249
+  - first:
+      213: 2395348515257297274
+    second: tileset_props_urbanos_250
+  - first:
+      213: -2679043896156773673
+    second: tileset_props_urbanos_251
+  - first:
+      213: 5784510597772872267
+    second: tileset_props_urbanos_252
+  - first:
+      213: -6236705035919851132
+    second: tileset_props_urbanos_253
+  - first:
+      213: 4012289009303612918
+    second: tileset_props_urbanos_254
+  - first:
+      213: -4373761522305745501
+    second: tileset_props_urbanos_255
+  - first:
+      213: -6304860248779073084
+    second: tileset_props_urbanos_256
+  - first:
+      213: -849162685166382739
+    second: tileset_props_urbanos_257
+  - first:
+      213: -2040402216247888923
+    second: tileset_props_urbanos_258
+  - first:
+      213: 1020884429594165682
+    second: tileset_props_urbanos_259
+  - first:
+      213: -1479092582442423196
+    second: tileset_props_urbanos_260
+  - first:
+      213: 4692498474490029315
+    second: tileset_props_urbanos_261
+  - first:
+      213: -7359261210201281979
+    second: tileset_props_urbanos_262
+  - first:
+      213: 2533946733913743678
+    second: tileset_props_urbanos_263
+  - first:
+      213: -6465768988518830782
+    second: tileset_props_urbanos_264
+  - first:
+      213: 3474770084678943471
+    second: tileset_props_urbanos_265
+  - first:
+      213: 289464014901463372
+    second: tileset_props_urbanos_266
+  - first:
+      213: -5103465276308885187
+    second: tileset_props_urbanos_267
+  - first:
+      213: -2041105012582978534
+    second: tileset_props_urbanos_268
+  - first:
+      213: -63526473429865044
+    second: tileset_props_urbanos_269
+  - first:
+      213: -489811083904392774
+    second: tileset_props_urbanos_270
+  - first:
+      213: 8011100139001097926
+    second: tileset_props_urbanos_271
+  - first:
+      213: -5638130595153613973
+    second: tileset_props_urbanos_272
+  - first:
+      213: -6283421950932096994
+    second: tileset_props_urbanos_273
+  - first:
+      213: 5040238231209922901
+    second: tileset_props_urbanos_274
+  - first:
+      213: -940543782575181208
+    second: tileset_props_urbanos_275
+  - first:
+      213: -8282458291086424564
+    second: tileset_props_urbanos_276
+  - first:
+      213: 8247107874000247484
+    second: tileset_props_urbanos_277
+  - first:
+      213: -3015731918432681421
+    second: tileset_props_urbanos_278
+  - first:
+      213: -7505979466394295336
+    second: tileset_props_urbanos_279
+  - first:
+      213: 3909831722917336289
+    second: tileset_props_urbanos_280
+  - first:
+      213: 7682045674169915293
+    second: tileset_props_urbanos_281
+  - first:
+      213: 2586298026015572809
+    second: tileset_props_urbanos_282
+  - first:
+      213: 7453261294094318355
+    second: tileset_props_urbanos_283
+  - first:
+      213: 5170941328212613327
+    second: tileset_props_urbanos_284
+  - first:
+      213: -1906452333937022038
+    second: tileset_props_urbanos_285
+  - first:
+      213: 8979646262933793354
+    second: tileset_props_urbanos_286
+  - first:
+      213: -442376227365747244
+    second: tileset_props_urbanos_287
+  - first:
+      213: 2491097278965763513
+    second: tileset_props_urbanos_288
+  - first:
+      213: 4479221310304481247
+    second: tileset_props_urbanos_289
+  - first:
+      213: -4949291851760825388
+    second: tileset_props_urbanos_290
+  - first:
+      213: 1029220017824227596
+    second: tileset_props_urbanos_291
+  - first:
+      213: -6750947255014988194
+    second: tileset_props_urbanos_292
+  - first:
+      213: 5843561214855916717
+    second: tileset_props_urbanos_293
+  - first:
+      213: -813686735406424930
+    second: tileset_props_urbanos_294
+  - first:
+      213: 1376545458010544376
+    second: tileset_props_urbanos_295
+  - first:
+      213: -7610825898181436536
+    second: tileset_props_urbanos_296
+  - first:
+      213: -719189573612569460
+    second: tileset_props_urbanos_297
+  - first:
+      213: 5439254947342313042
+    second: tileset_props_urbanos_298
+  - first:
+      213: 7771133278522338163
+    second: tileset_props_urbanos_299
+  - first:
+      213: -1307288492167491049
+    second: tileset_props_urbanos_300
+  - first:
+      213: -7897473504851378141
+    second: tileset_props_urbanos_301
+  - first:
+      213: -3656773829644214573
+    second: tileset_props_urbanos_302
+  - first:
+      213: 6114825900032518190
+    second: tileset_props_urbanos_303
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset_props_urbanos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 732
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f73de45b9db3660800000000000000
+      internalID: 7366720988229369729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 732
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c591f00725617d00800000000000000
+      internalID: 968666613055329728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 732
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1900a4d9baf7760800000000000000
+      internalID: 7457868199988597215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 732
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f1ed3a5407f0410800000000000000
+      internalID: 1445497449813516156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff89520684cd26f0800000000000000
+      internalID: -707693486583214085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 700
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395f6815888d54f60800000000000000
+      internalID: 8018052791597987219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 700
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31eab30581099420800000000000000
+      internalID: 2637140727606993214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72b2aa751be81e50800000000000000
+      internalID: 6780427716490605178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 668
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0470864f214e15bb0800000000000000
+      internalID: -4948923745442461888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 668
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77551bf7fb07dd570800000000000000
+      internalID: 8493068440074016119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 668
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f78901fda30eec0800000000000000
+      internalID: -3539764577382662258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7e36c9f12e15050800000000000000
+      internalID: 5787655621543454627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9d5e02ca3a19f50800000000000000
+      internalID: 6886465264907835819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b4875d4e9fc5290800000000000000
+      internalID: -7900164885085402234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d8418e7d6ab4f80800000000000000
+      internalID: -8121214056790717077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8724c97971378cb00800000000000000
+      internalID: 849055074924380792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfa811b060616fc0800000000000000
+      internalID: -3503413066713223224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25a843ab6c606c00800000000000000
+      internalID: 891831935776105773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4cc58e522d6f3a0800000000000000
+      internalID: -6631882341002459909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c15966772d9a090800000000000000
+      internalID: -8022649850919838665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aecabc28ef45df0800000000000000
+      internalID: -192249046353778163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af221ed715d0e6f40800000000000000
+      internalID: 5723526820089897722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d20227e564a69ba0800000000000000
+      internalID: -6082493489140858154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df066779d216ea960800000000000000
+      internalID: 7615130868372627709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_24
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e22065631b4deb0800000000000000
+      internalID: -4695933664511250839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71be608543c974170800000000000000
+      internalID: 8162664598261394199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_26
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d02d75263e90470800000000000000
+      internalID: 8361464194709720446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8bf97ac2f5f04c0800000000000000
+      internalID: -4319128872229554013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_28
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f098df7a05a59e150800000000000000
+      internalID: 5902348089108039951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602c23a2d5ddd6f40800000000000000
+      internalID: 5723474093667435014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_30
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6ac1a605ab084e0800000000000000
+      internalID: -1981378981502605609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72551d4518eae820800000000000000
+      internalID: 2948424084252611198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11f079ca98d2ffa0800000000000000
+      internalID: -5768310013391998692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_33
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac582939fc2ff9c40800000000000000
+      internalID: 5521398641527522762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_34
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 636
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d64f2ef668f580800000000000000
+      internalID: -8793165030539995446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d7b3d02045687f0800000000000000
+      internalID: -610708331673453253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eab78b7f201bbb0800000000000000
+      internalID: -4922149654763950564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223b0947fb5c988c0800000000000000
+      internalID: -3996445768229539038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044de5b8c2605b890800000000000000
+      internalID: -7443036020773301184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4e2d7d1211ed2e0800000000000000
+      internalID: -2099221539255556888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20667e10923950f50800000000000000
+      internalID: 6847040612821591554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf6ad4a9853384b0800000000000000
+      internalID: -5439445059640856655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_42
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31f8a24cd6b63a90800000000000000
+      internalID: -7334473885998845635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d557e1d050d1ed80800000000000000
+      internalID: -8223062399064255020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4036efb83e96861f0800000000000000
+      internalID: -1051474086963813628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef75c6b9b23d72d0800000000000000
+      internalID: -3279409180439117856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e93316ccc7e5340800000000000000
+      internalID: 4854454665597918740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0e778206b949540800000000000000
+      internalID: 5013803122468315379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_48
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc276eec66b73ea30800000000000000
+      internalID: 4243370955401229004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b14b20036b46370800000000000000
+      internalID: 8314971129352821568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_50
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e980a6f7e97e230a0800000000000000
+      internalID: -6903200610877044578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ac6e5f13cc62da0800000000000000
+      internalID: -5969859741082006983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_52
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c35793dcd809c10800000000000000
+      internalID: 2058300942280113234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_53
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258079fa40e0a28e0800000000000000
+      internalID: -1717544894599853998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_54
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd03a958907df3c0800000000000000
+      internalID: -4324176267564610120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_55
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073a284efe2388990800000000000000
+      internalID: -7383595583161588880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_56
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a260e278a569ea1f0800000000000000
+      internalID: -1031721949062101462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_57
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff59dbbd585454d30800000000000000
+      internalID: 4415011450926241279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_58
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3911b6389d18c070800000000000000
+      internalID: 8126778067179870526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f09a59c59d501960800000000000000
+      internalID: 7570653871519469810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_60
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f6ced5731419930800000000000000
+      internalID: 4148168437839720282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_61
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e549312dc7d6afeb0800000000000000
+      internalID: -4685312079457708962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_62
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 604
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067928070b2904af0800000000000000
+      internalID: -414169879218579616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02b480b4ee829a10800000000000000
+      internalID: 1914749904451056141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb291e23458d5e3d0800000000000000
+      internalID: -3177896105897520452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fefd5568cc179900800000000000000
+      internalID: 691052714844356342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fba58dfb1ff56a0800000000000000
+      internalID: -6458177534355128471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c1e09ca3583e80800000000000000
+      internalID: -8198711120997793695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d402d725b5ff98c90800000000000000
+      internalID: -7166916564292394931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5595f69f57d225690800000000000000
+      internalID: -7614974035210839723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_70
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a8dfcd2fbe93740800000000000000
+      internalID: 5132392678687607304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9926343a829d230800000000000000
+      internalID: 3664004453517924860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_72
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456e94803c6541020800000000000000
+      internalID: 2311567904405579348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_73
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477e0ca6ab307f20800000000000000
+      internalID: 3418297704211445577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_74
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838d83771b48b8a0800000000000000
+      internalID: -6289194315527912569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27248aa66aa598210800000000000000
+      internalID: 1335698435292545650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_76
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e18d404ff6397d50800000000000000
+      internalID: 6735475187632669158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8da08718639c09a0800000000000000
+      internalID: -6265470906299011698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_78
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d7197aa7cf93810800000000000000
+      internalID: 1745703934310317325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b168bafc808c3ad20800000000000000
+      internalID: 3288692093080012315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_80
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf6b0bec60207ab0800000000000000
+      internalID: -5012470733091409953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_81
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3213f1e7fff7c770800000000000000
+      internalID: 8631148650991653434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_82
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32404e26320d08900800000000000000
+      internalID: 684775993761858595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_83
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b42203de691bd280800000000000000
+      internalID: -9017585865102056267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_84
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e60eee58f904a5a0800000000000000
+      internalID: -6511068198921697562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_85
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec84a8b9b776a10800000000000000
+      internalID: 1902625275557498444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_86
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2310ff5517c90070800000000000000
+      internalID: 8073202701656134444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2906d6aef8b90860800000000000000
+      internalID: 7496726458595150127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_88
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd94b64a963b0a800800000000000000
+      internalID: 621694014888561115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_89
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a3fcc8ef824c200800000000000000
+      internalID: 199329357260339849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_90
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 572
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297ceeafe316dc160800000000000000
+      internalID: 7047395915030513554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0320cc657d19f80800000000000000
+      internalID: -8101457486872956689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb0debfc3dcba150800000000000000
+      internalID: 5885022999898033118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b608208047aa53b70800000000000000
+      internalID: 8878189655758110827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3b910c0901b72e0800000000000000
+      internalID: -2127088185118182420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84c7ab507e0f7d40800000000000000
+      internalID: 5584197938699551882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_96
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0b30261de0c9490800000000000000
+      internalID: -7738293767273992014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_97
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfcde39caae774e0800000000000000
+      internalID: -1983859083896303686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_98
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85edb6815aee86f0800000000000000
+      internalID: -680348857812523638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_99
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c07a8095abcd0a20800000000000000
+      internalID: 3030302036245246153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_100
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917f0405772db20a0800000000000000
+      internalID: -6905194193753147623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1ac920fd220ce30800000000000000
+      internalID: 4521652367096848886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_102
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32578799627f52100800000000000000
+      internalID: 82743913331848483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdd540e8ef222ed0800000000000000
+      internalID: -2440335370839794241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_104
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2accc78fba8fc3170800000000000000
+      internalID: 8159670042380520610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_105
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f4e0729fa2b7ae0800000000000000
+      internalID: -1550598397108531309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_106
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51d475e72168ab40800000000000000
+      internalID: 5451714172913242463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_107
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ed4579de8cd87a0800000000000000
+      internalID: -6373216974887657925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_108
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe77e1097ac9cae0800000000000000
+      internalID: -1528467977443770628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_109
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d72a3d23e4885b0800000000000000
+      internalID: -5365952975805973186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_110
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44fb4085d0c33ab0800000000000000
+      internalID: -5029464335629683636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_111
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95a30a62ea368700800000000000000
+      internalID: 542185549260367263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_112
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b9c0eacca473f0800000000000000
+      internalID: -903907637839941387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_113
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e2576529f3f67b0800000000000000
+      internalID: -5228890744605561328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_114
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b93895655a37f4b0800000000000000
+      internalID: -5406788689183884880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_115
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dc64e2094eca8f0800000000000000
+      internalID: -527795748406375093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_116
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1447f977f789a2790800000000000000
+      internalID: -7554057751725378495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_117
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50abbd77368f1a00800000000000000
+      internalID: 729449237548081246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_118
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 540
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdfe9e0efec81e10800000000000000
+      internalID: 2168710811141209540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb97a1d1d366b140800000000000000
+      internalID: 4735081811043392474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_120
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ef612c3863aec70800000000000000
+      internalID: 9001066744778260116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79265e5087ac37660800000000000000
+      internalID: 7382466831034180247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeea44da920c6b20800000000000000
+      internalID: 3128878705125551866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f362f8c30cdfa50800000000000000
+      internalID: 6556607998853529445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadeacb85c56e77a0800000000000000
+      internalID: -6377548123181748818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667a1c93dd02b5d20800000000000000
+      internalID: 3268242089116280678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e1c34426fcee990800000000000000
+      internalID: -7354713120490906033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_127
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf93f5714ce43470800000000000000
+      internalID: 8373577373084524488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_128
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e55c91822215a80800000000000000
+      internalID: -8479959067735531930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_129
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3ffe154ac1c1fd0800000000000000
+      internalID: -2369987811828829248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_130
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d43d696b02b8f90800000000000000
+      internalID: -6950425631329661604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_131
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c3cdbf199282710800000000000000
+      internalID: 1668629368913280093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_132
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed99965921b80130800000000000000
+      internalID: 3533268698776837610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_133
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81735726ba6ca1d80800000000000000
+      internalID: -8279086525573679336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_134
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce082b12d74e47ac0800000000000000
+      internalID: -3858207754662280980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_135
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737f5bcd966da22f0800000000000000
+      internalID: -996748617346320585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_136
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1612d9ed236791330800000000000000
+      internalID: 3682104131207373153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_137
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3503a0b39a3222080800000000000000
+      internalID: -9213762677899644845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_138
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756339448a7779980800000000000000
+      internalID: -8532219404441405865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_139
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb2adfb8adb3c280800000000000000
+      internalID: -9024160695849440262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_140
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1620d9bfd357ffd0800000000000000
+      internalID: -2308284063643851236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0d209d678fcc3a0800000000000000
+      internalID: -6643662160947654466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_142
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd5b40cb9dc26670800000000000000
+      internalID: 8530606713022930427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_143
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd7829ae9a640a40800000000000000
+      internalID: 5333505088388890049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_144
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa767a75eaeddfd0800000000000000
+      internalID: -2315436362075571542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_145
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cec3acf295b3c50800000000000000
+      internalID: 6646003736906624153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_146
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 508
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a2a2fb5972c5f0800000000000000
+      internalID: -737893953115608683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f86f13a9da0a040800000000000000
+      internalID: 4656912892475903892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_148
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a3f8dd93b104050800000000000000
+      internalID: 5782651856887953927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe475c9dc6e702b0800000000000000
+      internalID: -5618268239355752710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6eba4926fb0c460800000000000000
+      internalID: 7260013029443233495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be818551229fdf860800000000000000
+      internalID: 7565476873834600683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_152
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52dcac5ea322c270800000000000000
+      internalID: 8269211097591763551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_153
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a229b9ef1025ecd80800000000000000
+      internalID: -8228549300639264214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_154
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c673623149b5110800000000000000
+      internalID: 1250756131491900561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_155
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2bf9746b46ee750800000000000000
+      internalID: 6336112459805340388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_156
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c11cd15ad9b9230800000000000000
+      internalID: 3646681655780908126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_157
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca671a8a1bd5cb1e0800000000000000
+      internalID: -2180765101934414164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_158
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97f4e5623c69e870800000000000000
+      internalID: 8712613917838604190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_159
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fd4ea0fa2b3d400800000000000000
+      internalID: 347818061109452620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_160
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1caabb7346a9c10800000000000000
+      internalID: 2061069970009932264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_161
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcaf11bc99ae5390800000000000000
+      internalID: -7827632611871707913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_162
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc54e3deab72a220800000000000000
+      internalID: 2495693134326160575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_163
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e89ca953d92656c0800000000000000
+      internalID: -4155087618483382041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_164
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07697be0c8ca51c0800000000000000
+      internalID: -4514074945575622901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_165
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755e37a8346c17280800000000000000
+      internalID: -9047232183022656169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_166
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f115d8cf5d30210800000000000000
+      internalID: 1298116398292213567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_167
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6a26bc29bb6fd60800000000000000
+      internalID: 7923726833556825775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_168
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a1da5fe442bbf10800000000000000
+      internalID: 2286461157368470049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_169
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672f7fde60e3af7a0800000000000000
+      internalID: -6342688925714746762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_170
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa31c2a7b4aebe940800000000000000
+      internalID: 5326608594188899242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fc0e31618056400800000000000000
+      internalID: 316668239715290916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_172
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f9e7a452c2a16a0800000000000000
+      internalID: -6477816575343812822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_173
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1499633371f41f1a0800000000000000
+      internalID: -6777549003153827519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_174
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 476
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc81c1a2413976350800000000000000
+      internalID: 6009933942564329676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a93c5c3575385e0800000000000000
+      internalID: -1908585799763125758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_176
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65272689f112c350800000000000000
+      internalID: 6035406214025127274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670da03d7ba6a2a40800000000000000
+      internalID: 5344201245580775542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_178
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cc66f5dd76bf460800000000000000
+      internalID: 7276523823433174154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_179
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7b8ee1d9a942900800000000000000
+      internalID: 658821445122045899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_180
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bdd0707d5774800800000000000000
+      internalID: 596575042046647071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_181
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06903f63603ebbb0800000000000000
+      internalID: -4918440539416652277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_182
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1bcceacfaf2bbb0800000000000000
+      internalID: -4921595479591177758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_183
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c05ffbeceb84680800000000000000
+      internalID: -8770550479110992836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_184
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de6b13a17ed125d0800000000000000
+      internalID: -3088943289750294827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_185
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee8370e4514c0fc0800000000000000
+      internalID: -3527372575339213078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_186
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c849bc06e24568cf0800000000000000
+      internalID: -250420171103300468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_187
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eba775b70df3ee0800000000000000
+      internalID: -1279074540982714819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_188
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c213721d87f490e0800000000000000
+      internalID: -2263912527388536123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_189
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f363aa33ea1bce0800000000000000
+      internalID: -1391139272958525639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_190
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b200894499e4e70800000000000000
+      internalID: 9101380416849324879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_191
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd5f59c3c756fb80800000000000000
+      internalID: -8361399159758037568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_192
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af348e3056e3dda0800000000000000
+      internalID: -5921135852741443678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_193
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2ef64999b32a2d0800000000000000
+      internalID: -3268984848711163229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_194
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8513dadf944992f30800000000000000
+      internalID: 4551331943944106328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_195
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23929064a62df8a0800000000000000
+      internalID: -6269812618793151699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_196
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33419316f83594ea0800000000000000
+      internalID: -5888083162533653453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_197
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c71ca3eaefc83e40800000000000000
+      internalID: 5636483541403178946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_198
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0df9f9e7079bc590800000000000000
+      internalID: -7652857081539986166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_199
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1228f68c243e190800000000000000
+      internalID: -7934424689864990253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_200
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7d815c30a97c550800000000000000
+      internalID: 6181078354571614144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_201
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3657ac67c27aeab20800000000000000
+      internalID: 3147636998991934819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_202
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 444
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6942d056e249e13f0800000000000000
+      internalID: -928141546206976874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4da3e8585d067560800000000000000
+      internalID: 7311045718182178122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_204
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf5006f43c08e440800000000000000
+      internalID: 4965232010781024183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_205
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1970ccd44589cd00800000000000000
+      internalID: 993471723619776799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_206
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7815448b54a8b9350800000000000000
+      internalID: 6024560958587031943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_207
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b27ced7cd9d9180800000000000000
+      internalID: -9106949389711627451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_208
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4a005effee3eb50800000000000000
+      internalID: 6621398659990856893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_209
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e23219134ab5bbb0800000000000000
+      internalID: -4920822220486200601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_210
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815eb4b67b171b290800000000000000
+      internalID: -7876389240701197032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_211
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430214b0cc8df8bc0800000000000000
+      internalID: -3778563191466811340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_212
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741621687e112fbb0800000000000000
+      internalID: -4903837358168579769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_213
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d90baa08efc0cc0800000000000000
+      internalID: -3743337361678754519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_214
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9167bfb52768190800000000000000
+      internalID: -7960549551944361565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_215
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5571bb67dbbc2e0800000000000000
+      internalID: -2104380083222915628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_216
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e6e382b23d6dd0800000000000000
+      internalID: -2491279276567500958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_217
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3164c0e654482f720800000000000000
+      internalID: 2878508545577076243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_218
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7d52cdde9d3c0f0800000000000000
+      internalID: -1097794268524324904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_219
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc2b3a7425820a50800000000000000
+      internalID: 6485892805082950839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_220
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcba08bc68edde90800000000000000
+      internalID: -6999182692222059331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_221
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca23c78a3f0d51e0800000000000000
+      internalID: -2207591498281440564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_222
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d889d54b30f00d200800000000000000
+      internalID: 202678491817023629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_223
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b057dea409e1e0800000000000000
+      internalID: -2168196596618971066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_224
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208ad7b39cb44c790800000000000000
+      internalID: -7510794950888544254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_225
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83ebea23890b2290800000000000000
+      internalID: -7914221461208046709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_226
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a4c7e83304ae470800000000000000
+      internalID: 8424616643127954014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_227
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967cd4a4c245259f0800000000000000
+      internalID: -481229660973316247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_228
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb8f673353756e70800000000000000
+      internalID: 9107812622676233207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_229
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea927af27d715f60800000000000000
+      internalID: 8021330344105122542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_230
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a76bcf05005d520800000000000000
+      internalID: 2726085497279904311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb08ea05dc5a5250800000000000000
+      internalID: 5934157529094818790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_232
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66daa43fd47521880800000000000000
+      internalID: -8641748742664704666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_233
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f532e539153cec0800000000000000
+      internalID: -3547902388056400119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_234
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e55d67036b280670800000000000000
+      internalID: 8505095600615544292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_235
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e304396d4e954190800000000000000
+      internalID: -7978797109502278680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_236
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949ba45ad45994a30800000000000000
+      internalID: 4200052288217856329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_237
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1514eefdd1ba39c80800000000000000
+      internalID: -8317115942023839407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_238
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad51cca9a05a76a0800000000000000
+      internalID: -6450754826576765532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_239
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d60b281bad3f080800000000000000
+      internalID: -9154733161577419499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_240
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bee670e418a66900800000000000000
+      internalID: 677413601584541367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_241
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0e673ba07e860b0800000000000000
+      internalID: -5735080092309724988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_242
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62cc8f43ba747510800000000000000
+      internalID: 1545995482647282285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_243
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf4095c5bcb6640800000000000000
+      internalID: 5074373002653924348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_244
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23795d5c1277b1480800000000000000
+      internalID: -8927410849395140814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_245
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f6276d14ef82410800000000000000
+      internalID: 1452690438551138177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_246
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea53ff3ceea7b720800000000000000
+      internalID: 2861948417925667567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_247
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5528884538e401fb0800000000000000
+      internalID: -4679153686872030635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_248
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b09970ef48c2b40800000000000000
+      internalID: 5416850678403894128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_249
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe68b66d331ebcaf0800000000000000
+      internalID: -374958531198351633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_250
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79ab2598ccfd3120800000000000000
+      internalID: 2395348515257297274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_251
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2a5e745cf12dad0800000000000000
+      internalID: -2679043896156773673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_252
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a0cb3bdb5b64050800000000000000
+      internalID: 5784510597772872267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_253
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818b1530d5c279a0800000000000000
+      internalID: -6236705035919851132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_254
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdeebf88938ea730800000000000000
+      internalID: 4012289009303612918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_255
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adb1b291174d43c0800000000000000
+      internalID: -4373761522305745501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_256
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9da012203a088a0800000000000000
+      internalID: -6304860248779073084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_257
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d611422790b2734f0800000000000000
+      internalID: -849162685166382739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_258
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 380
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ff9daef80fa3e0800000000000000
+      internalID: -2040402216247888923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b100b6daf8ea2e00800000000000000
+      internalID: 1020884429594165682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_260
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46caa910225397be0800000000000000
+      internalID: -1479092582442423196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_261
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3056a09208a1f1140800000000000000
+      internalID: 4692498474490029315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_262
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a24ac9be6aed990800000000000000
+      internalID: -7359261210201281979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_263
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31a0ba01236a2320800000000000000
+      internalID: 2533946733913743678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_264
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d299fac59f446a0800000000000000
+      internalID: -6465768988518830782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_265
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2417d5bfcd83030800000000000000
+      internalID: 3474770084678943471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_266
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49c577ecf1640400800000000000000
+      internalID: 289464014901463372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_267
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31711ade59dc29b0800000000000000
+      internalID: -5103465276308885187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_268
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ce8b72ec98ca3e0800000000000000
+      internalID: -2041105012582978534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_269
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad216d420f4e1ff0800000000000000
+      internalID: -63526473429865044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_270
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab164d01a67d339f0800000000000000
+      internalID: -489811083904392774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_271
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce2e3db1252d2f60800000000000000
+      internalID: 8011100139001097926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_272
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b6b96881651c1b0800000000000000
+      internalID: -5638130595153613973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_273
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18ecc0d60dccc8a0800000000000000
+      internalID: -6283421950932096994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_274
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5515c9a87f582f540800000000000000
+      internalID: 5040238231209922901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_275
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86277e7b96482f2f0800000000000000
+      internalID: -940543782575181208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_276
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c060ecc011cce0d80800000000000000
+      internalID: -8282458291086424564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_277
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba9c169aec937270800000000000000
+      internalID: 8247107874000247484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_278
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33243085cc7f526d0800000000000000
+      internalID: -3015731918432681421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_279
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d32136917765d790800000000000000
+      internalID: -7505979466394295336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_280
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e49a00ac33824630800000000000000
+      internalID: 3909831722917336289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_281
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d975935e6db1c9a60800000000000000
+      internalID: 7682045674169915293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_282
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943c3f31a5064e320800000000000000
+      internalID: 2586298026015572809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_283
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bf8ac68ad4f6760800000000000000
+      internalID: 7453261294094318355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_284
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8df7ebdbfd2c740800000000000000
+      internalID: 5170941328212613327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_285
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab287ef3bbea85e0800000000000000
+      internalID: -1906452333937022038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_286
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a25de23bc1e9c70800000000000000
+      internalID: 8979646262933793354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_287
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d589ce3a2d5cd9f0800000000000000
+      internalID: -442376227365747244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_288
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd42bdd6c7229220800000000000000
+      internalID: 2491097278965763513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_289
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfee0fbc04692e30800000000000000
+      internalID: 4479221310304481247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_290
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db8f068845905bb0800000000000000
+      internalID: -4949291851760825388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_291
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0162263726884e00800000000000000
+      internalID: 1029220017824227596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_292
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56ee675d31df42a0800000000000000
+      internalID: -6750947255014988194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_293
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacacb2e6ff781150800000000000000
+      internalID: 5843561214855916717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_294
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 316
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c17a9a93435b4f0800000000000000
+      internalID: -813686735406424930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_295
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f855e10dc87a1310800000000000000
+      internalID: 1376545458010544376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_296
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b5d836b2ae06690800000000000000
+      internalID: -7610825898181436536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_297
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c78aaa4ece406f0800000000000000
+      internalID: -719189573612569460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_298
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256ef136e8d1c7b40800000000000000
+      internalID: 5439254947342313042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_299
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b6a882b8c98db60800000000000000
+      internalID: 7771133278522338163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_300
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712966dea049bdde0800000000000000
+      internalID: -1307288492167491049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_301
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3204640a0b9866290800000000000000
+      internalID: -7897473504851378141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_302
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de9c1c8397804dc0800000000000000
+      internalID: -3656773829644214573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_props_urbanos_303
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28ebc222c93cd450800000000000000
+      internalID: 6114825900032518190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
